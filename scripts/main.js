@@ -5,6 +5,7 @@ var mymap = L.map('mapid', {
 	zoom: 4,
 	minZoom: 3,
 	maxZoom: 12,
+	scrollWheelZoom:false,
 });
 
 L.tileLayer('https://api.mapbox.com/styles/v1/cgonza/cj4hmmeji35942rp5tehaqvle/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2dvbnphIiwiYSI6ImNqNGhtNHo5czAxMjIzMm5xeGpuM2x3ZjYifQ.VTojBophVZa--pcX3CCixQ', {
@@ -21,7 +22,8 @@ L.marker([39.8097, -98.5556]).addTo(mymap)
 var icon = L.icon({iconUrl: 'images/90s-marker-icon-2x.png', iconSize: [30, 30]});
 
 function onEachFeature (feature, layer) {
-	layer.bindPopup("<h3 class='infoHeader'>" + feature.properties.Sitcom + "</h3><p class='infoDetail'>Location: " + feature.properties.Location +"</p><p class='infoDetail'>On Air: " + feature.properties.Years + "<p class='infoDetail'>Decade: " + feature.properties.Decade +"</p><p class='infoDetail'>Network: " + feature.properties.Network +"</p>");
+	layer.bindPopup("<h3 class='infoHeader'>" + feature.properties.Sitcom + "</h3><p class='infoDetail'><span>Location:</span> " + feature.properties.Location +"</p><p class='infoDetail'><span>On Air:</span> " + feature.properties.Years + "<p class='infoDetail'><span>Decade:</span> " + feature.properties.Decade +"</p><p class='infoDetail'><span>Network:</span> " + feature.properties.Network +"</p>"
+);
 	layer.setIcon(icon);
 };
 
@@ -31,7 +33,7 @@ L.geoJson(maplistgeo, {
 
 
 // name prompt
-
+/*
 var myHeading = document.querySelector('h1');
 myHeading.textContent = 'Hello world!';
 
@@ -52,5 +54,5 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 };
-
+*/
 
