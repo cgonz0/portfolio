@@ -30,7 +30,7 @@ gulp.task('sass', function () {
 // Watchers
 gulp.task('watch', ['browserSync', 'sass'], function () {
   gulp.watch('sass/**/*.scss', ['sass']);
-  gulp.watch('./*.html', browserSync.reload); 
+  gulp.watch('**/*.html', browserSync.reload); 
   gulp.watch('./scripts/**/*.js', browserSync.reload); 
 });
 
