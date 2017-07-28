@@ -27,7 +27,8 @@ html, body {
   top: 22px;
   background-color: #000;
   position: absolute;
-  padding: 20px; }
+  padding: 20px;
+  display: none; }
 
 .dropdown-menu li {
   margin-left: 0;
@@ -180,7 +181,7 @@ body {
     font-size: 10px; }
 
 .modal-box {
-  display: block;
+  display: none;
   left: 0;
   right: 0;
   top: 150px;

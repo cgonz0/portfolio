@@ -1,7 +1,7 @@
 // dropdown menu
 
 var main = function() {
-  $('img').click(function() {
+  $('.dropdown img').click(function() {
     $('.dropdown-menu').toggle();
   });
 };
