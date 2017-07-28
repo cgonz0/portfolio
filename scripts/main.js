@@ -8,7 +8,74 @@ var main = function() {
  
 $(document).ready(main);
 
+
 // js and leaflet map
+
+// leaflet filters
+
+
+
+var maplistgeo =
+
+{"type":"FeatureCollection",
+"features": [
+  {
+    "type":"Feature",
+    "properties": {
+        "Sitcom":"Seinfeld",
+        "Years":"89-98",
+        "Decade":"80s;90s",
+        "Location":"Manhattan NYC",
+        "":"",
+        "Network":"NBC"
+      },
+
+    "geometry": {
+        "type":"Point","coordinates":[-73.9712,40.7831]
+      }
+  },
+
+    {"type":"Feature","properties":{"Sitcom":"Friends","Years":"94-04","Decade":"90s","Location":"Manhattan NYC","":"","Network":"NBC"},"geometry":{"type":"Point","coordinates":[-73.9712,40.7831]}},
+
+    {"type":"Feature","properties":{"Sitcom":"Frasier","Years":"93-04","Decade":"90s","Location":"Seattle WA","":"","Network":"NBC"},"geometry":{"type":"Point","coordinates":[-122.3321,47.6062]}},
+
+    {"type":"Feature","properties":{"Sitcom":"Home Improvement","Years":"91-99","Decade":"90s","Location":"Detroit  MI","":"","Network":"ABC"},"geometry":{"type":"Point","coordinates":[-83.0458,42.3314]}},
+
+    {"type":"Feature","properties":{"Sitcom":"Family Matters","Years":"89-97","Decade":"80s;90s","Location":"Chicago Illinois","":"","Network":"ABC"},"geometry":{"type":"Point","coordinates":[-87.6298,41.8781]}}
+]
+};
+
+
+
+var markersA = [];
+var markersB = [];
+
+//Loop through the initial array and add to two different arrays based on the specified variable
+for(var i=0; i < maplistgeo.length; i++) {
+    switch (maplistgeo[i][2]) {            
+        case '80s' : 
+            markersA.push(L.marker([maplistgeo[i][3], maplistgeo[i][4]]));
+            break;        
+        case '90s' :
+            markersB.push(L.marker([maplistgeo[i][3], maplistgeo[i][4]]));
+            break;
+        default :
+            break;
+    }
+}
+
+
+//add the groups of markers to layerGroups
+var groupA = L.layerGroup(markersA);
+var groupB = L.layerGroup(markersB);
+
+
+
+var tileLayer = {'Light' : L.tileLayer('https://api.mapbox.com/styles/v1/cgonza/cj4hmmeji35942rp5tehaqvle/tiles/256/{z}/{x}/{y}?access_token={token}', {
+    attribution: 'MapBox',
+    token: 'pk.eyJ1IjoiY2dvbnphIiwiYSI6ImNqNGhtNHo5czAxMjIzMm5xeGpuM2x3ZjYifQ.VTojBophVZa--pcX3CCixQ'
+  })
+};
 
 var mymap = L.map('mapid', {
 	center: [39.8097, -98.5556],
@@ -16,11 +83,22 @@ var mymap = L.map('mapid', {
 	minZoom: 3,
 	maxZoom: 12,
 	scrollWheelZoom:false,
+  layers: [tileLayer['Light'], groupA, groupB]
 });
 
-L.tileLayer('https://api.mapbox.com/styles/v1/cgonza/cj4hmmeji35942rp5tehaqvle/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2dvbnphIiwiYSI6ImNqNGhtNHo5czAxMjIzMm5xeGpuM2x3ZjYifQ.VTojBophVZa--pcX3CCixQ', {
-    attribution: 'MapBox',
-}).addTo(mymap);
+
+
+//Control on the Top Left that handles the switching between A and B
+var overlayMaps = {
+    "80s": groupA,
+    "90s": groupB
+};
+
+L.control.layers(tileLayer, overlayMaps, {position:'topleft'}).addTo(mymap);
+
+
+
+
 
 /* var marker = L.marker([39.8097, -98.5556]).addTo(mymap);
 
@@ -40,6 +118,14 @@ function onEachFeature (feature, layer) {
 L.geoJson(maplistgeo, {
 	onEachFeature: onEachFeature
 }).addTo(mymap);
+
+
+var decades = L.geoJson(myJson, {filter: decadeFilter}).addTo(mymap);
+
+function decadeFilter(feature) {
+  if (feature.properties.Decade === "90s") return true
+};
+
 
 
 // name prompt
