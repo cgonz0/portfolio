@@ -322,4 +322,49 @@ a.close:hover {
 
 }*/
 
+// leaflet styling fixes
+
+.leaflet-control-layers.leaflet-control-layers-expanded.leaflet-control {
+	margin: 0;
+	background-color: $pink;
+	width: 100px;
+	height: 500px;
+	color: $white;
+	padding-top: 25px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	box-shadow: none;
+	border-radius: 0px;
+ }	
+
+//selector checkbox
+
+input[type="checkbox"] {
+  display: none;
+  }	
+
+  label {
+  cursor: pointer;
+ }
+
+  input[type="checkbox"] + span:before {
+  border: none;
+  background: $white;
+  content: "\00a0";
+  display: inline-block;
+  font: 21px/.8em sans-serif;
+  height: 16px;
+  margin-top: 4px;
+  margin-left: 16px;
+  padding: 0;
+  vertical-align: top;
+  width: 16px;
+  }
+
+input[type="checkbox"]:checked + span:before {
+  background: $white;
+  color: $green;
+  content: "\2714";
+  text-align: center;
+  }
 

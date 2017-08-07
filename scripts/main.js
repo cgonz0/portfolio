@@ -146,7 +146,8 @@ var overlay = {
 
 
 
-L.control.layers(basemap, overlay).addTo(map);
+L.control.layers(null, overlay,{collapsed:false}).addTo(map);
+
 
 
 
