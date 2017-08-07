@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="icon" href="/favicon.ico" type="image/x-icon">
-		 <link href="https://fonts.googleapis.com/css?family=Rammetto+One|Work+Sans:300,400" rel="stylesheet">
+		 <link rel="icon" href="/favicon.ico" type="image/x-icon">
+		 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rammetto+One|Work+Sans:300,400">
+		 <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css"> 
 		<!--build:css css/main.min.css-->
-		<link href="leaflet/leaflet.css" type="text/css" rel="stylesheet"/>
-		<link href="css/main.css" type="text/css" rel="stylesheet"/>
+		<link rel="stylesheet" href="leaflet/leaflet.css" type="text/css">
+		<link rel="stylesheet" href="css/main.css" type="text/css">	
+		<link rel="stylesheet" href="css/leaflet.awesome-markers.css">
+		
 		<!--endbuild-->
 		<title>c gonz portfolio</title>
 	</head>
@@ -72,8 +75,17 @@
       	<h2>Situational Comedies mapped</h2>
 	   </div>  
 	</div>
+
+<!--
+	<div class="btn-group">
+        <button type="button" id="alldecades" class="btn btn-success">All</button>
+        <button type="button" id="nineties" class="btn btn-primary">Nineties</button>
+        <button type="button" id="eighties" class="btn btn-danger">Eighties</button>
+    </div>-->
+
 		
 	<div id="mapid"></div>
+
 
 	<div class="footer">
 		<div class="container">
@@ -93,7 +105,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="leaflet/leaflet.js"></script>
 	<script src="scripts/maplistgeo.js"></script>
+	<script src="scripts/maplistgeo.json"></script>
 	<script src="scripts/main.js"></script>
+	<script src="scripts/leaflet.awesome-markers.js"></script>
 	<!-- endbuild -->
 	</body>
 </html>
