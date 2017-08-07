@@ -64,7 +64,12 @@ html, body {
 .header { 
 	padding-top: 10px;
 	height: 280px;
-	background: $green;
+    background-image: -ms-linear-gradient(bottom, #B3FF21 0%, #91CE1B 100%);
+	background-image: -moz-linear-gradient(bottom, #B3FF21 0%, #91CE1B 100%);
+	background-image: -o-linear-gradient(bottom, #B3FF21 0%, #91CE1B 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #B3FF21), color-stop(100, #91CE1B));
+	background-image: -webkit-linear-gradient(bottom, #B3FF21 0%, #91CE1B 100%);
+	background-image: linear-gradient(to top, #B3FF21 0%, #91CE1B 100%);
 	color: $white;
 	h1 {
 		text-align: center;
@@ -201,8 +206,8 @@ body {
 
 /*leafleat map*/
 
-#mapid { 
-	height: 500px; 
+#mapid {
+  height: 500px;
 }
 
 .infoHeader {
@@ -316,3 +321,5 @@ a.close:hover {
 	width: 75%;
 
 }*/
+
+
