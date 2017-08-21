@@ -46,11 +46,6 @@ $(window).resize();
 // js and leaflet map
 
 
-var maplistgeo =
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"Sitcom":"Seinfeld","Years":"89-98","Decade":"80s","Location":"Manhattan NYC","":"","Network":"NBC"},"geometry":{"type":"Point","coordinates":[-73.9754,40.7838]}},{"type":"Feature","properties":{"Sitcom":"Friends","Years":"94-04","Decade":"90s","Location":"Manhattan  NYC","":"","Network":"NBC"},"geometry":{"type":"Point","coordinates":[-74.0053,40.7324]}},{"type":"Feature","properties":{"Sitcom":"Frasier","Years":"93-04","Decade":"90s","Location":"Seattle WA","":"","Network":"NBC"},"geometry":{"type":"Point","coordinates":[-122.3321,47.6062]}},{"type":"Feature","properties":{"Sitcom":"Home Improvement","Years":"91-99","Decade":"90s","Location":"Detroit  MI","":"","Network":"ABC"},"geometry":{"type":"Point","coordinates":[-83.0458,42.3314]}},{"type":"Feature","properties":{"Sitcom":"Family Matters","Years":"89-97","Decade":"80s","Location":"Chicago Illinois","":"","Network":"ABC"},"geometry":{"type":"Point","coordinates":[-87.6298,41.8781]}}]};
-
-
-
 var tileLayer = L.tileLayer('https://api.mapbox.com/styles/v1/cgonza/cj4hmmeji35942rp5tehaqvle/tiles/256/{z}/{x}/{y}?access_token={token}', {
     attribution: 'MapBox',
     token: 'pk.eyJ1IjoiY2dvbnphIiwiYSI6ImNqNGhtNHo5czAxMjIzMm5xeGpuM2x3ZjYifQ.VTojBophVZa--pcX3CCixQ'
@@ -78,6 +73,7 @@ var map = L.map('mapid', {
 /*L.geoJson(maplistgeo, {
   onEachFeature: onEachFeature
 }).addTo(map);*/
+
 
 
 var eighties = L.geoJson(maplistgeo, {
