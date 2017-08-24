@@ -78,12 +78,12 @@ var map = L.map('mapid', {
 
 var eighties = L.geoJson(maplistgeo, {
 filter: function(feature, layer) {
-    return (feature.properties.Decade === "80s");
+    return (feature.properties.Decade80s === "80s");
       },
 
   onEachFeature: function (feature, layer) {
-            if (feature.properties && feature.properties.Decade) {
-                layer.bindPopup("<h3 class='infoHeader'>" + feature.properties.Sitcom + "</h3><p class='infoDetail'><span>Location:</span> " + feature.properties.Location +"</p><p class='infoDetail'><span>On Air:</span> " + feature.properties.Years + "<p class='infoDetail'><span>Decade:</span> " + feature.properties.Decade +"</p><p class='infoDetail'><span>Network:</span> " + feature.properties.Network +"</p>");
+            if (feature.properties && feature.properties.Decade80s) {
+                layer.bindPopup("<h3 class='infoHeader'>" + feature.properties.Sitcom + "</h3><p class='infoDetail'><span>Location:</span> " + feature.properties.Location + "</p><p class='infoDetail'><span>On Air:</span> " + feature.properties.OnAir + "<p class='infoDetail'><span>Network:</span> " + feature.properties.Network +"</p>");
             }
         },
 
@@ -107,11 +107,37 @@ filter: function(feature, layer) {
 
 var nineties = L.geoJson(maplistgeo, {
   filter: function(feature, layer) {
-    return (feature.properties.Decade === "90s");    
+    return (feature.properties.Decade90s === "90s");    
   },
   onEachFeature: function (feature, layer) {
-            if (feature.properties && feature.properties.Decade) {
-                layer.bindPopup("<h3 class='infoHeader'>" + feature.properties.Sitcom + "</h3><p class='infoDetail'><span>Location:</span> " + feature.properties.Location +"</p><p class='infoDetail'><span>On Air:</span> " + feature.properties.Years + "<p class='infoDetail'><span>Decade:</span> " + feature.properties.Decade +"</p><p class='infoDetail'><span>Network:</span> " + feature.properties.Network +"</p>");
+            if (feature.properties && feature.properties.Decade90s) {
+                layer.bindPopup("<h3 class='infoHeader'>" + feature.properties.Sitcom + "</h3><p class='infoDetail'><span>Location:</span> " + feature.properties.Location +"</p><p class='infoDetail'><span>On Air:</span> " + feature.properties.OnAir + "<p class='infoDetail'><span>Network:</span> " + feature.properties.Network +"</p>");
+            }
+        },
+
+
+        pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, {
+                    radius: 10,
+                    fillColor: "#15cec9",
+                    color: "#15cec9",
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 1
+                });
+        }
+
+}).addTo(map);
+
+
+
+var fictional = L.geoJson(maplistgeo, {
+  filter: function(feature, layer) {
+    return (feature.properties.FictionalLocation === "Yes");    
+  },
+  onEachFeature: function (feature, layer) {
+            if (feature.properties && feature.properties.FictionalLocation) {
+                layer.bindPopup("<h3 class='infoHeader'>" + feature.properties.Sitcom + "</h3><p class='infoDetail'><span>Location:</span> " + feature.properties.Location +"</p><p class='infoDetail'><span>On Air:</span> " + feature.properties.OnAir + "<p class='infoDetail'><span>Network:</span> " + feature.properties.Network +"</p>");
             }
         },
 
@@ -137,14 +163,12 @@ var basemap = {
 
 var overlay = {
   "80s": eighties,
-  "90s": nineties
+  "90s": nineties,
+  "Fictional Location": fictional 
 };
 
 
-
 L.control.layers(null, overlay,{collapsed:false}).addTo(map);
-
-
 
 
 /*

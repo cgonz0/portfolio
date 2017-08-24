@@ -8,7 +8,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Seinfeld",
         "OnAir": "89-98",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -16,7 +17,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -32,7 +33,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Friends",
         "OnAir": "94-04",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -40,7 +42,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -56,15 +58,16 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Frasier",
         "OnAir": "93-04",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Seattle, WA",
         "FictionalLocation": "",
-        "AddressArea": "",
+        "Fic": "",
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -80,7 +83,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Home Improvement",
         "OnAir": "91-99",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Detroit, MI",
         "FictionalLocation": "",
@@ -88,7 +92,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -104,7 +108,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Family Matters",
         "OnAir": "89-97",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Chicago, IL",
         "FictionalLocation": "",
@@ -112,7 +117,7 @@ var maplistgeo =
         "Network": "ABC;CBS",
         "Spinoff": "",
         "SpinoffOf": "Perfect Strangers",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -128,7 +133,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Married with Children",
         "OnAir": "87-97",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Schaumburg/Chicago, IL",
         "FictionalLocation": "",
@@ -136,7 +142,7 @@ var maplistgeo =
         "Network": "FOX",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -152,7 +158,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Murphy Brown",
         "OnAir": "88-98",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Washington, D.C.",
         "FictionalLocation": "",
@@ -160,7 +167,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -176,7 +183,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Everybody Loves Raymond",
         "OnAir": "96-05",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Lynbrook, NY",
         "FictionalLocation": "",
@@ -184,7 +192,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -200,7 +208,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "King of Queens",
         "OnAir": "98-02",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Queens, NYC",
         "FictionalLocation": "",
@@ -208,7 +217,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -224,7 +233,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Mad About You",
         "OnAir": "92-99",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -232,7 +242,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -248,7 +258,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "My Two Dads",
         "OnAir": "87-90",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -256,7 +267,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "Crossover: Night Court",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -272,7 +283,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "The Nanny",
         "OnAir": "93-99",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -280,7 +292,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -296,7 +308,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Boy Meets World",
         "OnAir": "93-00",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Philadelphia, PA",
         "FictionalLocation": "",
@@ -304,7 +317,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -320,7 +333,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Living Single",
         "OnAir": "93-98",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Brooklyn, NYC",
         "FictionalLocation": "",
@@ -328,7 +342,7 @@ var maplistgeo =
         "Network": "FOX",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -344,7 +358,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Coach",
         "OnAir": "89-97",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Minnesota",
         "FictionalLocation": "",
@@ -352,7 +367,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "1 hr away from the Twin Cities. Most likely Mankato U.",
+        "FictionalLocation proximity": "1 hr away from the Twin Cities. Most likely Mankato U.",
         "": ""
       },
       "geometry": {
@@ -368,7 +383,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Wings",
         "OnAir": "90-97",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Nantucket, MA",
         "FictionalLocation": "",
@@ -376,7 +392,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -392,7 +408,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Sister, Sister",
         "OnAir": "94-99",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Detroit, MI",
         "FictionalLocation": "",
@@ -400,7 +417,7 @@ var maplistgeo =
         "Network": "ABC;WB",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -416,7 +433,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "NewsRadio",
         "OnAir": "95-99",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -424,7 +442,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -440,7 +458,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Ellen",
         "OnAir": "94-98",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Los Angeles, CA",
         "FictionalLocation": "",
@@ -448,7 +467,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -464,7 +483,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Martin",
         "OnAir": "92-97",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Detroit, MI",
         "FictionalLocation": "",
@@ -472,7 +492,7 @@ var maplistgeo =
         "Network": "FOX",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -488,7 +508,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "The Cosby Show",
         "OnAir": "84-92",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Brooklyn, NYC",
         "FictionalLocation": "",
@@ -496,7 +517,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -512,7 +533,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Clarissa Explains it All",
         "OnAir": "91-94",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Ohio",
         "FictionalLocation": "",
@@ -520,7 +542,7 @@ var maplistgeo =
         "Network": "Nick",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -536,7 +558,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Blossom",
         "OnAir": "90-95",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Venice, California",
         "FictionalLocation": "",
@@ -544,7 +567,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -560,7 +583,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Doogie Howser, M.D.",
         "OnAir": "89-93",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Los Angeles, CA",
         "FictionalLocation": "",
@@ -568,7 +592,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -584,7 +608,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "The Larry Sanders Show",
         "OnAir": "92-98",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Los Angeles, CA",
         "FictionalLocation": "",
@@ -592,7 +617,7 @@ var maplistgeo =
         "Network": "HBO",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "Burbank studios possibly",
+        "FictionalLocation proximity": "Burbank studios possibly",
         "": ""
       },
       "geometry": {
@@ -608,7 +633,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Hangin with Mr. Cooper",
         "OnAir": "92-97",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Oakland, CA",
         "FictionalLocation": "",
@@ -616,7 +642,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -632,7 +658,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Just the Ten of Us",
         "OnAir": "88-90",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Eureka, CA",
         "FictionalLocation": "",
@@ -640,7 +667,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "Growing Pains",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -656,7 +683,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Will & Grace",
         "OnAir": "98-06",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Manhattan, NYC  ",
         "FictionalLocation": "",
@@ -664,7 +692,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -680,7 +708,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Charles in Charge",
         "OnAir": "84-90",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "New Brunswick, NJ",
         "FictionalLocation": "",
@@ -688,7 +717,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -704,7 +733,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "ALF",
         "OnAir": "86-90",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "San Fernando Valley, CA",
         "FictionalLocation": "",
@@ -712,7 +742,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -728,7 +758,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "The Facts of Life",
         "OnAir": "79-88",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Peekskill, NY",
         "FictionalLocation": "",
@@ -736,7 +767,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "Diff'rent Strokes",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -752,7 +783,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Night Court",
         "OnAir": "84-92",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -760,7 +792,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "My Two Dads (Crossover)",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -776,7 +808,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Diff'rent Strokes",
         "OnAir": "78-86",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -784,7 +817,7 @@ var maplistgeo =
         "Network": "NBC;ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -800,7 +833,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Golden Girls",
         "OnAir": "85-92",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Miami, FL",
         "FictionalLocation": "",
@@ -808,7 +842,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "Golden Palace; Empty Nest",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": -80.1918
       },
       "geometry": {
@@ -824,7 +858,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Growing Pains",
         "OnAir": "85-92",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Massapequa, Long Island, NY",
         "FictionalLocation": "",
@@ -832,7 +867,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -848,7 +883,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": 227,
         "OnAir": "85-90",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Washington, D.C.",
         "FictionalLocation": "",
@@ -856,7 +892,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -872,7 +908,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Mr. Belvedere",
         "OnAir": "85-90",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Beaver Falls, PA",
         "FictionalLocation": "",
@@ -880,7 +917,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -896,7 +933,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Punky Brewster",
         "OnAir": "84-88",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Chicago, IL",
         "FictionalLocation": "",
@@ -904,7 +942,7 @@ var maplistgeo =
         "Network": "NBC;Syndicated",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -920,7 +958,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Silver Spoons",
         "OnAir": "82-87",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Long Island, NY",
         "FictionalLocation": "",
@@ -928,7 +967,7 @@ var maplistgeo =
         "Network": "NBC;Syndicated",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -944,7 +983,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Moesha",
         "OnAir": "96-01",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Leimert Park, LA, CA",
         "FictionalLocation": "",
@@ -952,7 +992,7 @@ var maplistgeo =
         "Network": "UPN",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -968,7 +1008,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Saved by the Bell",
         "OnAir": "89-93",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Palisades, LA, CA",
         "FictionalLocation": "",
@@ -976,7 +1017,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "The College Years / The New Class",
         "SpinoffOf": "Good Morning, Miss Bliss",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -992,7 +1033,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "California Dreams",
         "OnAir": "92-96",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Redondo Beach, CA",
         "FictionalLocation": "",
@@ -1000,7 +1042,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1016,7 +1058,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Hey Dude",
         "OnAir": "89-91",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Tucson, AZ",
         "FictionalLocation": "",
@@ -1024,7 +1067,7 @@ var maplistgeo =
         "Network": "Nick",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1040,7 +1083,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Party of Five",
         "OnAir": "94-00",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "San Francisco, CA",
         "FictionalLocation": "",
@@ -1048,7 +1092,7 @@ var maplistgeo =
         "Network": "FOX",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1064,7 +1108,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Perfect Strangers",
         "OnAir": "86-93",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Chicago, IL",
         "FictionalLocation": "",
@@ -1072,7 +1117,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "Family Matters",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1088,7 +1133,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Empty Nest",
         "OnAir": "88-95",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Miami, FL",
         "FictionalLocation": "",
@@ -1096,7 +1142,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "Nurses",
         "SpinoffOf": "Golden Girls",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1112,7 +1158,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "The Hogan Family",
         "OnAir": "86-90",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Cook County, IL",
         "FictionalLocation": "",
@@ -1120,7 +1167,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1136,7 +1183,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Cheers",
         "OnAir": "82-93",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Boston, MA",
         "FictionalLocation": "",
@@ -1144,7 +1192,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1160,7 +1208,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Mork & Mindy",
         "OnAir": "78-82",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Boulder, CO",
         "FictionalLocation": "",
@@ -1168,7 +1217,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "Happy Days",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1184,7 +1233,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Kate & Allie",
         "OnAir": "84-89",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -1192,7 +1242,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1208,7 +1258,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Designing Women",
         "OnAir": "86-93",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Atlanta, GA",
         "FictionalLocation": "",
@@ -1216,7 +1267,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1232,7 +1283,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Webster",
         "OnAir": "83-87",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Chicago, IL",
         "FictionalLocation": "",
@@ -1240,7 +1292,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1256,7 +1308,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Head of the Class",
         "OnAir": "86-91",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -1264,7 +1317,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1280,7 +1333,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "One Day at a Time",
         "OnAir": "75-84",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Indianapolis,IN",
         "FictionalLocation": "",
@@ -1288,7 +1342,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1304,7 +1358,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Happy Days",
         "OnAir": "74-84",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "50s-60s ",
         "Location": "Milwaukee, WI",
         "FictionalLocation": "",
@@ -1312,7 +1367,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "Laverne & Shirley;Mork& Mindy",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1328,7 +1383,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Who's the Boss?",
         "OnAir": "84-92",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Fairfield, CT",
         "FictionalLocation": "",
@@ -1336,7 +1392,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "Living Dolls",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1352,7 +1408,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Alice",
         "OnAir": "76-85",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Phoenix, AZ",
         "FictionalLocation": "",
@@ -1360,7 +1417,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "Flo",
         "SpinoffOf": "based off: Alice Doesn't Live Here Anymore",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1376,7 +1433,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Bosom Buddies",
         "OnAir": "80-82",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -1384,7 +1442,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1400,7 +1458,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Amen",
         "OnAir": "86-91",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Philadelphia, PA",
         "FictionalLocation": "",
@@ -1408,7 +1467,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1424,7 +1483,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Taxi",
         "OnAir": "78-82",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -1432,7 +1492,7 @@ var maplistgeo =
         "Network": "ABC;NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1448,7 +1508,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "WKRP in Cincinatti",
         "OnAir": "78-82",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Cincinatti, OH",
         "FictionalLocation": "",
@@ -1456,7 +1517,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "The New WKRP in Cincinnati",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1472,7 +1533,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Soap",
         "OnAir": "77-81",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Dunn's River, CT",
         "FictionalLocation": "",
@@ -1480,7 +1542,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "Benson",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1496,7 +1558,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "It's Gary Shandling's Show",
         "OnAir": "86-90",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Sherman Oaks, CA",
         "FictionalLocation": "",
@@ -1504,7 +1567,7 @@ var maplistgeo =
         "Network": "Showtime",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1520,7 +1583,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Family Ties",
         "OnAir": "82-89",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Columbus, OH",
         "FictionalLocation": "",
@@ -1528,7 +1592,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1544,7 +1608,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Laverne & Shirley",
         "OnAir": "76-83",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "50s-60s ",
         "Location": "Milwaukee, WI",
         "FictionalLocation": "",
@@ -1552,7 +1617,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "Laverne & Shirley in the Army",
         "SpinoffOf": "Happy Days",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1568,7 +1633,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "The Jeffersons",
         "OnAir": "75-85",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -1576,7 +1642,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "Checking In",
         "SpinoffOf": "All in the Family",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1592,7 +1658,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Three's Company",
         "OnAir": "77-84",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Santa Monica, CA",
         "FictionalLocation": "",
@@ -1600,7 +1667,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "The Ropers;Three's a Crowd",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1616,7 +1683,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Three's a Crowd",
         "OnAir": "84-85",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Santa Monica, CA",
         "FictionalLocation": "",
@@ -1624,7 +1692,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "Three's a Company",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1640,7 +1708,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Getting by",
         "OnAir": "93-94",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Oak Park, IL",
         "FictionalLocation": "",
@@ -1648,7 +1717,7 @@ var maplistgeo =
         "Network": "ABC;NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1664,7 +1733,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "On our Own",
         "OnAir": "94-95",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "St. Louis, MO",
         "FictionalLocation": "",
@@ -1672,7 +1742,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1688,7 +1758,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Anything but Love",
         "OnAir": "89-92",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Chicago, IL",
         "FictionalLocation": "",
@@ -1696,7 +1767,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1712,7 +1783,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "The Drew Carey Show",
         "OnAir": "95-04",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Cleveland, OH",
         "FictionalLocation": "",
@@ -1720,7 +1792,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1736,7 +1808,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Boston Common",
         "OnAir": "96-97",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Boston, MA",
         "FictionalLocation": "",
@@ -1744,7 +1817,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1760,7 +1833,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Herman's Head",
         "OnAir": "91-94",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Manhattan, NYC",
         "FictionalLocation": "",
@@ -1768,7 +1842,7 @@ var maplistgeo =
         "Network": "FOX",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1784,7 +1858,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Gloria",
         "OnAir": "82-83",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Fox Ridge, NY",
         "FictionalLocation": "",
@@ -1792,7 +1867,7 @@ var maplistgeo =
         "Network": "CBS",
         "Spinoff": "",
         "SpinoffOf": "All in the Family",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1808,7 +1883,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Step by Step",
         "OnAir": "91-97",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Port Washington, WI",
         "FictionalLocation": "",
@@ -1816,7 +1892,7 @@ var maplistgeo =
         "Network": "ABC;CBS",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1832,7 +1908,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Weird Science",
         "OnAir": "94-98",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Southern California",
         "FictionalLocation": "",
@@ -1840,7 +1917,7 @@ var maplistgeo =
         "Network": "USA",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1856,7 +1933,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "The John Larroquette Show ",
         "OnAir": "93-96",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "St. Louis, MO",
         "FictionalLocation": "",
@@ -1864,7 +1942,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1880,7 +1958,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Full House",
         "OnAir": "87-95",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "San Francisco, CA",
         "FictionalLocation": "",
@@ -1888,7 +1967,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "Fuller House",
         "SpinoffOf": "",
-        "Fictional Location proximity": "",
+        "FictionalLocation proximity": "",
         "": ""
       },
       "geometry": {
@@ -1904,7 +1983,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Roseanne",
         "OnAir": "88-97",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Lanford, Illinois",
         "FictionalLocation": "Yes",
@@ -1912,7 +1992,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "Suburb outside of Chicago, close to Rockford,IL (possibly Genoa, IL)",
+        "FictionalLocation proximity": "Suburb outside of Chicago, close to Rockford,IL (possibly Genoa, IL)",
         "": ""
       },
       "geometry": {
@@ -1928,7 +2008,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Wonder Years",
         "OnAir": "88-93",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "60s",
         "Location": "Anywhere, USA",
         "FictionalLocation": "Yes",
@@ -1936,7 +2017,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "Any suburban American neighborhood during the 60s.",
+        "FictionalLocation proximity": "Any suburban American neighborhood during the 60s.",
         "": ""
       },
       "geometry": {
@@ -1952,7 +2033,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Sabrina the Teenage Witch",
         "OnAir": "96-03",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Westbridge, MA",
         "FictionalLocation": "Yes",
@@ -1960,7 +2042,7 @@ var maplistgeo =
         "Network": "ABC;WB",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "Suburb west of Boston",
+        "FictionalLocation proximity": "Suburb west of Boston",
         "": ""
       },
       "geometry": {
@@ -1976,7 +2058,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "3rd Rock From the Sun",
         "OnAir": "96-01",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Rutherford, OH",
         "FictionalLocation": "Yes",
@@ -1984,7 +2067,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "Cleveland, Ohio (52 miles outside)",
+        "FictionalLocation proximity": "Cleveland, Ohio (52 miles outside)",
         "": ""
       },
       "geometry": {
@@ -2000,7 +2083,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Gimme a Break",
         "OnAir": "81-87",
-        "Decade": "80s",
+        "Decade80s": "80s",
+        "Decade90s": "",
         "TimePeriod": "",
         "Location": "Glenlawn, CA",
         "FictionalLocation": "Yes",
@@ -2008,7 +2092,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "An hour away from Fresno towards Baristow",
+        "FictionalLocation proximity": "An hour away from Fresno towards Baristow",
         "": ""
       },
       "geometry": {
@@ -2024,7 +2108,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Salute Your Shorts",
         "OnAir": "91-92",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Camp Anawanna",
         "FictionalLocation": "Yes",
@@ -2032,7 +2117,7 @@ var maplistgeo =
         "Network": "Nick",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "Shot in Franklin Canyon Park LA / Griffith Park LA",
+        "FictionalLocation proximity": "Shot in Franklin Canyon Park LA / Griffith Park LA",
         "": ""
       },
       "geometry": {
@@ -2048,7 +2133,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Mama's Family",
         "OnAir": "83-90",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Raytown, MO",
         "FictionalLocation": "Yes",
@@ -2056,7 +2142,7 @@ var maplistgeo =
         "Network": "NBC;Syndicated",
         "Spinoff": "",
         "SpinoffOf": "The Carol Burnett Show",
-        "Fictional Location proximity": "Raytown is based on the town of Raytown, Missouri, a suburb of Kansas City. The state in which Raytown is set is never revealed.",
+        "FictionalLocation proximity": "Raytown is based on the town of Raytown, Missouri, a suburb of Kansas City. The state in which Raytown is set is never revealed.",
         "": ""
       },
       "geometry": {
@@ -2072,7 +2158,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "A Different World",
         "OnAir": "87-93",
-        "Decade": "80s;90s",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Hillman College, VA",
         "FictionalLocation": "Yes",
@@ -2080,7 +2167,7 @@ var maplistgeo =
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "The Cosby Show",
-        "Fictional Location proximity": "between Richmond and the Hampton Roads area.",
+        "FictionalLocation proximity": "between Richmond and the Hampton Roads area.",
         "": ""
       },
       "geometry": {
@@ -2094,9 +2181,10 @@ var maplistgeo =
     {
       "type": "Feature",
       "properties": {
-        "Sitcom": "Parker Lewis Can't Lost",
+        "Sitcom": "Parker Lewis Can't Lose",
         "OnAir": "90-93",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Santo Domingo, CA",
         "FictionalLocation": "Yes",
@@ -2104,7 +2192,7 @@ var maplistgeo =
         "Network": "FOX",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "Southern California, shot at A.Hamilton High.",
+        "FictionalLocation proximity": "Southern California, shot at A.Hamilton High.",
         "": ""
       },
       "geometry": {
@@ -2120,7 +2208,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "Grace Under Fire",
         "OnAir": "93-98",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Victory, Missouri",
         "FictionalLocation": "Yes",
@@ -2128,7 +2217,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "small Misourri town with oil refineries",
+        "FictionalLocation proximity": "small Misourri town with oil refineries",
         "": ""
       },
       "geometry": {
@@ -2144,7 +2233,8 @@ var maplistgeo =
       "properties": {
         "Sitcom": "My So-called Life",
         "OnAir": "94-95",
-        "Decade": "90s",
+        "Decade80s": "",
+        "Decade90s": "90s",
         "TimePeriod": "",
         "Location": "Three Rivers, PA",
         "FictionalLocation": "Yes",
@@ -2152,7 +2242,7 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "Fictional Location proximity": "Pittsburgh suburb"
+        "FictionalLocation proximity": "Pittsburgh suburb"
       },
       "geometry": {
         "type": "Point",
