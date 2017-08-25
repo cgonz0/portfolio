@@ -1353,7 +1353,7 @@ var maplistgeo =
         ]
       }
     },
-    {
+    /*{
       "type": "Feature",
       "properties": {
         "Sitcom": "Happy Days",
@@ -1377,7 +1377,7 @@ var maplistgeo =
           42.5577
         ]
       }
-    },
+    },*/
     {
       "type": "Feature",
       "properties": {
@@ -1603,7 +1603,7 @@ var maplistgeo =
         ]
       }
     },
-    {
+    /*{
       "type": "Feature",
       "properties": {
         "Sitcom": "Laverne & Shirley",
@@ -1627,7 +1627,7 @@ var maplistgeo =
           43.0472
         ]
       }
-    },
+    },*/
     {
       "type": "Feature",
       "properties": {
@@ -2003,7 +2003,7 @@ var maplistgeo =
         ]
       }
     },
-    {
+    /*{
       "type": "Feature",
       "properties": {
         "Sitcom": "Wonder Years",
@@ -2027,7 +2027,7 @@ var maplistgeo =
           39.8283
         ]
       }
-    },
+    },*/
     {
       "type": "Feature",
       "properties": {
