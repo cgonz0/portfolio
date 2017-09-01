@@ -185,6 +185,10 @@ body {
     text-transform: uppercase;
     font-size: 10px; }
 
+.image img {
+  width: 150px;
+  height: 90px; }
+
 .leaflet-marker-icon {
   height: 35px; }
 
