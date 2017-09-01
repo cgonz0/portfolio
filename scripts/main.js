@@ -56,7 +56,7 @@ var map = L.map('mapid', {
   center: [39.8097, -98.5556],
   zoom: 4,
   minZoom: 3,
-  maxZoom: 12,
+  maxZoom: 15,
   scrollWheelZoom:false,
   layers: tileLayer
 });
@@ -110,7 +110,7 @@ var nineties = L.geoJson(maplistgeo, {
   },
   onEachFeature: function (feature, layer) {
             if (feature.properties && feature.properties.Decade90s) {
-                layer.bindPopup("<h3 class='infoHeader'>" + feature.properties.Sitcom + "</h3><p class='infoDetail'><span>Location:</span> " + feature.properties.Location +"</p><p class='infoDetail'><span>On Air:</span> " + feature.properties.OnAir + (feature.properties.Spinoff ? "<p class='infoDetail'><span>Spin off:</span> " + feature.properties.Spinoff : ' ') + (feature.properties.SpinoffOf ? "<p class='infoDetail'><span>Spin off of:</span> " + feature.properties.SpinoffOf : ' ') + "<p class='infoDetail'><span>Network:</span> " + feature.properties.Network +"</p>");
+                layer.bindPopup("<h3 class='infoHeader'>" + feature.properties.Sitcom + "</h3><p class='infoDetail'><span>Location:</span> " + feature.properties.Location +"</p><p class='infoDetail'><span>On Air:</span> " + feature.properties.OnAir + (feature.properties.Spinoff ? "<p class='infoDetail'><span>Spin off:</span> " + feature.properties.Spinoff : ' ') + (feature.properties.SpinoffOf ? "<p class='infoDetail'><span>Spin off of:</span> " + feature.properties.SpinoffOf : ' ') + "<p class='infoDetail'><span>Network:</span> " + feature.properties.Network + (feature.properties.ImageSrc ? "<p class='image'><a href=" + feature.properties.ImageLink + "><img src=" + feature.properties.ImageSrc + " ></a></p>" : ' '));
             }
         },
 

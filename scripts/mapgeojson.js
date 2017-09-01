@@ -43,6 +43,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "Image":"/images/locations/thumbs/friends_150x90.jpg",
+        "ImageLink":"/images/locations/friends.jpg",
         "": ""
       },
       "geometry": {
@@ -266,7 +268,7 @@ var maplistgeo =
         "AddressArea": "Wooste St and Broome St.",
         "Network": "NBC",
         "Spinoff": "",
-        "SpinoffOf": "Crossover: Night Court",
+        "SpinoffOf": "Night Court (Crossover)",
         "FictionalLocation proximity": "",
         "": ""
       },
@@ -1273,8 +1275,8 @@ var maplistgeo =
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.9065,
-          43.0349
+          -84.3769,
+          33.7405
         ]
       }
     },
@@ -1968,6 +1970,8 @@ var maplistgeo =
         "Spinoff": "Fuller House",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc":"/images/locations/thumbs/fullhouse_150x90.jpg",
+        "ImageLink":"/images/locations/fullhouse.jpg",
         "": ""
       },
       "geometry": {
