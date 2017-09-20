@@ -18,6 +18,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/seinfeld_150x90.jpg",
+        "ImageLink": "/images/locations/seinfeld.jpg",
         "": ""
       },
       "geometry": {
@@ -43,8 +45,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
-        "Image":"/images/locations/thumbs/friends_150x90.jpg",
-        "ImageLink":"/images/locations/friends.jpg",
+        "ImageSrc": "/images/locations/thumbs/friends_150x90.jpg",
+        "ImageLink": "/images/locations/friends.jpg",
         "": ""
       },
       "geometry": {
@@ -65,11 +67,13 @@ var maplistgeo =
         "TimePeriod": "",
         "Location": "Seattle, WA",
         "FictionalLocation": "",
-        "Fic": "",
+        "AddressArea": "",
         "Network": "NBC",
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -95,6 +99,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -120,6 +126,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "Perfect Strangers",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/familymatters_150x90.jpg",
+        "ImageLink": "/images/locations/familymatters.jpg",
         "": ""
       },
       "geometry": {
@@ -145,6 +153,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/marriedwithchildren_150x90.jpg",
+        "ImageLink": "/images/locations/marriedwithchildren.jpg",
         "": ""
       },
       "geometry": {
@@ -170,6 +180,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -195,6 +207,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -220,6 +234,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/kingofqueens_150x90.jpg",
+        "ImageLink": "/images/locations/kingofqueens.jpg",
         "": ""
       },
       "geometry": {
@@ -245,6 +261,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -270,6 +288,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "Night Court (Crossover)",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -295,6 +315,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -320,6 +342,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -345,6 +369,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -370,6 +396,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "1 hr away from the Twin Cities. Most likely Mankato U.",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -395,6 +423,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -420,6 +450,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -445,6 +477,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -470,6 +504,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -495,6 +531,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -520,6 +558,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/cosbyshow_150x90.jpg",
+        "ImageLink": "/images/locations/cosbyshow.jpg",
         "": ""
       },
       "geometry": {
@@ -545,6 +585,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -570,6 +612,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -595,6 +639,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -620,6 +666,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "Burbank studios possibly",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -645,6 +693,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -670,6 +720,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "Growing Pains",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -695,6 +747,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -720,6 +774,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -745,6 +801,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -770,6 +828,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "Diff'rent Strokes",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/factsoflife_150x90.jpg",
+        "ImageLink": "/images/locations/factsoflife.jpg",
         "": ""
       },
       "geometry": {
@@ -795,13 +855,15 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "My Two Dads (Crossover)",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/nightcourt_150x90.jpg",
+        "ImageLink": "/images/locations/nightcourt.jpg",
         "": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.001,
-          40.716
+          -74.0024,
+          40.7147
         ]
       }
     },
@@ -820,6 +882,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/diff'rentstrokes_150x90.jpg",
+        "ImageLink": "/images/locations/diff'rentstrokes.jpg",
         "": ""
       },
       "geometry": {
@@ -827,6 +891,33 @@ var maplistgeo =
         "coordinates": [
           -73.9607,
           40.7761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Sitcom": "Empty Nest",
+        "OnAir": "88-95",
+        "Decade80s": "80s",
+        "Decade90s": "90s",
+        "TimePeriod": "",
+        "Location": "Miami, FL",
+        "FictionalLocation": "",
+        "AddressArea": "",
+        "Network": "NBC",
+        "Spinoff": "Nurses",
+        "SpinoffOf": "Golden Girls",
+        "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.198,
+          25.756
         ]
       }
     },
@@ -845,13 +936,15 @@ var maplistgeo =
         "Spinoff": "Golden Palace; Empty Nest",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/goldengirls_150x90.jpg",
+        "ImageLink": "/images/locations/goldengirls.jpg",
         "": -80.1918
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.197096,
-          25.756543
+          -80.1971,
+          25.7565
         ]
       }
     },
@@ -870,6 +963,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -895,6 +990,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -920,6 +1017,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -945,6 +1044,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -970,6 +1071,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -995,6 +1098,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1020,6 +1125,8 @@ var maplistgeo =
         "Spinoff": "The College Years / The New Class",
         "SpinoffOf": "Good Morning, Miss Bliss",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1045,6 +1152,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1070,6 +1179,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1095,6 +1206,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1120,6 +1233,8 @@ var maplistgeo =
         "Spinoff": "Family Matters",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1127,31 +1242,6 @@ var maplistgeo =
         "coordinates": [
           -87.6375,
           41.9203
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Sitcom": "Empty Nest",
-        "OnAir": "88-95",
-        "Decade80s": "80s",
-        "Decade90s": "90s",
-        "TimePeriod": "",
-        "Location": "Miami, FL",
-        "FictionalLocation": "",
-        "AddressArea": "",
-        "Network": "NBC",
-        "Spinoff": "Nurses",
-        "SpinoffOf": "Golden Girls",
-        "FictionalLocation proximity": "",
-        "": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.198,
-          25.756
         ]
       }
     },
@@ -1170,6 +1260,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1195,6 +1287,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/cheers_150x90.jpg",
+        "ImageLink": "/images/locations/cheers.jpg",
         "": ""
       },
       "geometry": {
@@ -1220,6 +1314,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "Happy Days",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1245,6 +1341,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1270,6 +1368,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/designingwomen_150x90.jpg",
+        "ImageLink": "/images/locations/designingwomen.jpg",
         "": ""
       },
       "geometry": {
@@ -1295,6 +1395,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1320,6 +1422,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1345,6 +1449,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1355,7 +1461,7 @@ var maplistgeo =
         ]
       }
     },
-    /*{
+    {
       "type": "Feature",
       "properties": {
         "Sitcom": "Happy Days",
@@ -1370,6 +1476,8 @@ var maplistgeo =
         "Spinoff": "Laverne & Shirley;Mork& Mindy",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1379,7 +1487,7 @@ var maplistgeo =
           42.5577
         ]
       }
-    },*/
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1395,6 +1503,8 @@ var maplistgeo =
         "Spinoff": "Living Dolls",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/whostheboss_150x90.jpg",
+        "ImageLink": "/images/locations/whostheboss.jpg",
         "": ""
       },
       "geometry": {
@@ -1420,6 +1530,8 @@ var maplistgeo =
         "Spinoff": "Flo",
         "SpinoffOf": "based off: Alice Doesn't Live Here Anymore",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1445,6 +1557,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1470,6 +1584,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/amen_150x90.jpg",
+        "ImageLink": "/images/locations/amen.jpg",
         "": ""
       },
       "geometry": {
@@ -1495,6 +1611,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1520,6 +1638,8 @@ var maplistgeo =
         "Spinoff": "The New WKRP in Cincinnati",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1545,6 +1665,8 @@ var maplistgeo =
         "Spinoff": "Benson",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1570,6 +1692,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1595,6 +1719,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1605,7 +1731,7 @@ var maplistgeo =
         ]
       }
     },
-    /*{
+    {
       "type": "Feature",
       "properties": {
         "Sitcom": "Laverne & Shirley",
@@ -1620,6 +1746,8 @@ var maplistgeo =
         "Spinoff": "Laverne & Shirley in the Army",
         "SpinoffOf": "Happy Days",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1629,7 +1757,7 @@ var maplistgeo =
           43.0472
         ]
       }
-    },*/
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1645,6 +1773,8 @@ var maplistgeo =
         "Spinoff": "Checking In",
         "SpinoffOf": "All in the Family",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/thejeffersons_150x90.jpg",
+        "ImageLink": "/images/locations/thejeffersons.jpg",
         "": ""
       },
       "geometry": {
@@ -1670,6 +1800,8 @@ var maplistgeo =
         "Spinoff": "The Ropers;Three's a Crowd",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/threescompany_150x90.jpg",
+        "ImageLink": "/images/locations/threescompany.jpg",
         "": ""
       },
       "geometry": {
@@ -1695,6 +1827,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "Three's a Company",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1720,6 +1854,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1745,6 +1881,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1770,6 +1908,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1795,6 +1935,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1820,6 +1962,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1845,6 +1989,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1870,6 +2016,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "All in the Family",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1895,6 +2043,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "/images/locations/thumbs/stepbystep_150x90.jpg",
+        "ImageLink": "/images/locations/stepbystep.jpg",
         "": ""
       },
       "geometry": {
@@ -1920,6 +2070,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1945,6 +2097,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -1970,8 +2124,8 @@ var maplistgeo =
         "Spinoff": "Fuller House",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
-        "ImageSrc":"/images/locations/thumbs/fullhouse_150x90.jpg",
-        "ImageLink":"/images/locations/fullhouse.jpg",
+        "ImageSrc": "/images/locations/thumbs/fullhouse_150x90.jpg",
+        "ImageLink": "/images/locations/fullhouse.jpg",
         "": ""
       },
       "geometry": {
@@ -1997,6 +2151,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "Suburb outside of Chicago, close to Rockford,IL (possibly Genoa, IL)",
+        "ImageSrc": "/images/locations/thumbs/roseanne_150x90.jpg",
+        "ImageLink": "/images/locations/roseanne.jpg",
         "": ""
       },
       "geometry": {
@@ -2022,6 +2178,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "Any suburban American neighborhood during the 60s.",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -2047,6 +2205,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "Suburb west of Boston",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -2072,6 +2232,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "Cleveland, Ohio (52 miles outside)",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -2097,6 +2259,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "An hour away from Fresno towards Baristow",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -2122,6 +2286,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "Shot in Franklin Canyon Park LA / Griffith Park LA",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -2147,6 +2313,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "The Carol Burnett Show",
         "FictionalLocation proximity": "Raytown is based on the town of Raytown, Missouri, a suburb of Kansas City. The state in which Raytown is set is never revealed.",
+        "ImageSrc": "/images/locations/thumbs/mamasfamily_150x90.jpg",
+        "ImageLink": "/images/locations/mamasfamily.jpg",
         "": ""
       },
       "geometry": {
@@ -2172,6 +2340,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "The Cosby Show",
         "FictionalLocation proximity": "between Richmond and the Hampton Roads area.",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -2197,6 +2367,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "Southern California, shot at A.Hamilton High.",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -2222,6 +2394,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "small Misourri town with oil refineries",
+        "ImageSrc": "",
+        "ImageLink": "",
         "": ""
       },
       "geometry": {
@@ -2246,7 +2420,9 @@ var maplistgeo =
         "Network": "ABC",
         "Spinoff": "",
         "SpinoffOf": "",
-        "FictionalLocation proximity": "Pittsburgh suburb"
+        "FictionalLocation proximity": "Pittsburgh suburb",
+        "ImageSrc": "",
+        "ImageLink": ""
       },
       "geometry": {
         "type": "Point",
