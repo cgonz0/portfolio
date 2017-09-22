@@ -11,6 +11,7 @@ html, body {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
+	width: 70%;
 
 }
 
@@ -26,6 +27,7 @@ html, body {
   position: absolute;
   top: 20px;
   left: 20px;
+  z-index: 1;
 }
 
 .dropdown-menu {
@@ -64,27 +66,81 @@ html, body {
 .header { 
 	padding-top: 10px;
 	height: 280px;
-    background-image: -ms-linear-gradient(bottom, #B3FF21 0%, #91CE1B 100%);
+	background-color: $green;
+	z-index: 0;
+    /*background-image: -ms-linear-gradient(bottom, #B3FF21 0%, #91CE1B 100%);
 	background-image: -moz-linear-gradient(bottom, #B3FF21 0%, #91CE1B 100%);
 	background-image: -o-linear-gradient(bottom, #B3FF21 0%, #91CE1B 100%);
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #B3FF21), color-stop(100, #91CE1B));
 	background-image: -webkit-linear-gradient(bottom, #B3FF21 0%, #91CE1B 100%);
-	background-image: linear-gradient(to top, #B3FF21 0%, #91CE1B 100%);
+	background-image: linear-gradient(to top, #B3FF21 0%, #91CE1B 100%);*/
 	color: $white;
 	h1 {
 		text-align: center;
 		font-family: 'Rammetto One';
 		font-size: 32px;
 		padding-top: 50px;
-	 	@media (max-width:786px) {font-size:28px;padding-top:25px;}
+		position:relative;
+		z-index: 0;
+	 	@media (max-width:786px) {font-size:28px;padding-top:35px;}
 	}
 	h2 {
 		font-weight: 400;
 		text-align: center;
+		position:relative;
+		z-index: 0;
+		color: $purple;
 		@media (max-width:786px) {font-size:21px;}
 	}
 }
+	
+	
 
+	h1:before {
+	    content: '';
+	    background: $purple;
+	    display: inline-block;
+	    position: absolute;
+	    left: 1%;
+	    padding: 1.5rem;
+	    right: 1%;
+	    z-index: -1;
+	    -webkit-column-break-inside: avoid;
+	    break-inside: avoid;
+	    transition: all 0.3s;
+	    -webkit-transform: rotate(-1deg) skew(7deg);
+		transform: rotate(-1deg) skew(7deg);
+		@media (max-width:1263px) {display:none;}
+	}
+
+	h1:hover:before {
+  		-webkit-transform: rotate(1deg) skew(-7deg);
+         transform: rotate(1deg) skew(-7deg);
+    }
+
+
+    h2:before {
+	    content: '';
+	    background: $white;
+	    display: inline-block;
+	    position: absolute;
+	    left: 28%;
+	    padding: 1rem;
+	    right: 28%;
+	    z-index: -1;
+	    -webkit-column-break-inside: avoid;
+	    break-inside: avoid;
+	    transition: all 0.3s;
+	    -webkit-transform: rotate(1deg) skew(-7deg);
+		transform: rotate(1deg) skew(-7deg);
+		@media (max-width:1263px) {display:none;}
+	}
+
+	h2:hover:before {
+  		-webkit-transform: rotate(-1deg) skew(7deg);
+         transform: rotate(-1deg) skew(7deg);
+    }
+	
 /*
 .nav ul {
 	list-style: none;
@@ -193,6 +249,13 @@ li {
 			text-decoration: none;
 		}
 	}
+	hr {
+		margin-top:50px;	
+		width: 50px;
+		color: $purple	;	
+		border-style: solid;
+		border-width: 1px;
+	}
 }
 
 .logo {
@@ -229,7 +292,8 @@ body {
 }
 
 .leaflet-marker-icon {
-	height: 35px;
+	height: 45px !important;
+	width: 30px !important;
 }
 
 
@@ -299,6 +363,8 @@ a.close {
   right: 2%;
   text-decoration: none;
   color: #bbb;
+  font-family: 'FontAwesome';
+  content:  'remove';
 }
 
 a.close:hover {
@@ -388,7 +454,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked + span:before {
   background: $white;
-  color: $green;
+  color: $aqua;
   content: "\2714";
   text-align: center;
   }
