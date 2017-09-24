@@ -47,6 +47,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/friends_150x90.jpg",
         "ImageLink": "/images/locations/friends.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=67hDG_tzRvE",
         "": ""
       },
       "geometry": {
@@ -2126,6 +2127,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/fullhouse_150x90.jpg",
         "ImageLink": "/images/locations/fullhouse.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=2EL65KLdEHE",
         "": ""
       },
       "geometry": {

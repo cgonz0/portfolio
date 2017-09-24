@@ -248,6 +248,11 @@ body {
   width: 150px;
   height: 90px; }
 
+.intro .fa {
+  font-size: 24px;
+  color: #15cec9;
+  margin-top: -6px; }
+
 .leaflet-marker-icon {
   height: 45px !important;
   width: 30px !important; }
