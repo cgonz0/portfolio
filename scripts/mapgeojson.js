@@ -2317,6 +2317,7 @@ var maplistgeo =
         "FictionalLocation proximity": "Raytown is based on the town of Raytown, Missouri, a suburb of Kansas City. The state in which Raytown is set is never revealed.",
         "ImageSrc": "/images/locations/thumbs/mamasfamily_150x90.jpg",
         "ImageLink": "/images/locations/mamasfamily.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=CIxeTNyCmLE",
         "": ""
       },
       "geometry": {
@@ -2342,8 +2343,9 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "The Cosby Show",
         "FictionalLocation proximity": "between Richmond and the Hampton Roads area.",
-        "ImageSrc": "",
-        "ImageLink": "",
+        "ImageSrc": "/images/locations/thumbs/adifferentworld_150x90.jpg",
+        "ImageLink": "/images/locations/adifferentworld.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=I9lVlt5FpYc",
         "": ""
       },
       "geometry": {
