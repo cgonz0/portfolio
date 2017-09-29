@@ -40,6 +40,7 @@ html, body {
   position: absolute;
   padding: 20px;
   display: none;
+  z-index: 1;
 }
 
 .dropdown-menu li {
@@ -56,11 +57,28 @@ html, body {
   text-decoration: none;
 }
 
-.dropdown-menu li a:hover {
-  background-color: $aqua;
-  color: #000; 
-  padding: 5px;
+.dropdown-menu li a:hover:before {
+	content: '';
+	    background: $aqua;
+	    display: inline-block;
+	    position: absolute;
+	    left: 10%;
+	    padding: 16px;
+		margin: -4px;
+	    right: 20%;
+	    z-index: -1;
+	    -webkit-column-break-inside: avoid;
+	    break-inside: avoid;
+	    transition: all 0.3s;
+  		-webkit-transform: rotate(1deg) skew(-7deg);
+        transform: rotate(1deg) skew(-7deg);
 }
+
+.contactdropdown:hover:before {
+  		-webkit-transform: rotate(-1deg) skew(7deg) !important;
+        transform: rotate(-1deg) skew(7deg) !important;
+}
+
 //
 
 .header { 
@@ -90,6 +108,7 @@ html, body {
 		position:relative;
 		z-index: 0;
 		color: $purple;
+		@media (max-width:1263px) {color:$white;}
 		@media (max-width:786px) {font-size:21px;}
 	}
 }
@@ -314,14 +333,14 @@ body {
 	margin-right: auto;
 	position:absolute;	
 	z-index: 1001;
-  width: 75%;
-  background: white;
-  border-bottom: 1px solid #aaa;
-  border-radius: 4px;
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-clip: padding-box;
-  @media (max-width:786px) {width:98%;margin:5px;top:0;}
+	width: 75%;
+	background: white;
+	border-bottom: 1px solid #aaa;
+	border-radius: 4px;
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-clip: padding-box;
+	@media (max-width:786px) {width:98%;margin:5px;top:0;}
 }
 
 .modal-box header,
@@ -364,13 +383,10 @@ body {
 a.close {
   line-height: 1;
   font-size: 1.5em;
-  position: absolute;
-  top: 5%;
-  right: 2%;
+  position: relative;
+  float: right;
   text-decoration: none;
   color: #bbb;
-  font-family: 'FontAwesome';
-  content:  'remove';
 }
 
 a.close:hover {
@@ -379,6 +395,33 @@ a.close:hover {
   -moz-transition: color 1s ease;
   transition: color 1s ease;
 }
+
+.contact .fa {
+	color: $aqua;
+	margin-bottom: 10px;	
+}
+
+.location .fa {
+	font-size: 24px;
+}
+	
+.email .fa {
+	font-size: 18px;
+}
+	
+.socialmedia .fa {
+	color: $aqua;
+	font-size: 32px;
+	margin: 10px 40px 30px 0px;
+}
+
+.fa.fa-vimeo {
+		font-size: 28px;
+	}
+.fa.fa-linkedin {
+	font-size: 34px;
+}
+
 
 .btn {
 	font-size: 16px;
@@ -394,14 +437,9 @@ a.close:hover {
 	transition: background-color 1s ease;
 	}
 
-/*#about-popup, #contact-popup {
-	top: 50%;
-	left: 273px;
-	display: block;
-	opacity: 1;
-	width: 75%;
-
-}*/
+#about-popup, #contact-popup {
+	z-index: 1002;
+}
 
 // leaflet styling fixes
 
