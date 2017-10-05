@@ -448,7 +448,7 @@ a.close:hover {
 	margin-top: 60px;
 
 	label:nth-child(3) {
-		margin-top: 45px;
+		margin-top: 35px;
 		margin-left: 34px;
 
 		span {
@@ -524,12 +524,44 @@ input[type="checkbox"]:checked + span:before {
     text-transform: uppercase;
 }
 
+.view {
+    top: 245px;
+}
+
 .hrstyle {
 	position: absolute;
-    top: 152px;
+    top: 147px;
     left: -3px;
     width: 100px;
     border-style: solid;
-    border-width: 1px;
+    border-width: .5px;
     color: $white;
 }
+
+// target buttons
+.btn-group {
+	position: absolute;
+	width: 110px;
+	top: 580px;
+	right: 10px;
+	z-index: 1001;
+	display: block;
+	-webkit-transition: background-color 1s ease;
+	-moz-transition: background-color 1s ease;
+	transition: background-color 1s ease;
+}
+
+.btn-target {
+	font-size: 13px;
+	width: 105px;
+	height: 34px;
+	border: 1px solid $white;
+	background-color: transparent;
+	color: $white;
+	text-decoration: none;
+	margin: 5px 0px;
+	font-family: 'Work Sans', sans-serif;
+	cursor: pointer;
+}
+
+

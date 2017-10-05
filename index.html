@@ -85,16 +85,21 @@
         <button type="button" id="nineties" class="btn btn-primary">Nineties</button>
         <button type="button" id="eighties" class="btn btn-danger">Eighties</button>
     </div>-->
-
-    <div class="filters">
+	
+	<div class="filters">
 		<h5>Filters</h5>
 		<h5 class="filter-category">Decade</h5>
 		<hr class="hrstyle">
-	</div>	
+		<h5 class="filter-category view">View</h5>
+	</div>
 
-		
+	<div class="btn-group">
+		<input name="nyc" type="button" value="New York City" class="btn-target" onClick="zoomTo(locNYC);" />
+		<input name="la" type="button" value="Los Angeles" class="btn-target" onClick="zoomTo(locLA);" />
+		<input name="reset" type="button" value="Reset View" class="btn-target" onClick="resetmap('Reset')" />
+	</div>
+
 	<div id="mapid"></div>
-
 
 	<div class="footer">
 		<div class="container">
