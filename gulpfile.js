@@ -10,6 +10,9 @@ var cache = require('gulp-cache');
 var del = require('del');
 var runSequence = require('run-sequence');
 
+var jsonminify = require('gulp-jsonminify');
+
+
 // !Development Tasks
 // Start browserSync server
 gulp.task('browserSync', function() {
@@ -45,6 +48,13 @@ gulp.task('useref', function(){
     // Minifies only if it's a CSS file
     .pipe(gulpIf('*.css', cssnano()))
     .pipe(gulp.dest('dist'))
+});
+
+// Optimizing Json
+gulp.task('minify', function () {
+  return gulp.src(['path/to/files/*.json'])
+      .pipe(jsonminify())
+      .pipe(gulp.dest('dist'));
 });
 
 // Optimizing Images 

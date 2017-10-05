@@ -20,6 +20,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/seinfeld_150x90.jpg",
         "ImageLink": "/images/locations/seinfeld.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=_3Z_UISDg1E",
         "": ""
       },
       "geometry": {
@@ -206,10 +207,11 @@ var maplistgeo =
         "AddressArea": "",
         "Network": "CBS",
         "Spinoff": "",
-        "SpinoffOf": "",
+        "SpinoffOf": "King of Queens (Crossover",
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=e8JN7d1WcbA",
         "": ""
       },
       "geometry": {
@@ -233,10 +235,11 @@ var maplistgeo =
         "AddressArea": "",
         "Network": "CBS",
         "Spinoff": "",
-        "SpinoffOf": "",
+        "SpinoffOf": "Everybody Loves Raymond (Crossover)",
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/kingofqueens_150x90.jpg",
         "ImageLink": "/images/locations/kingofqueens.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=sbqm3q1_yZk",
         "": ""
       },
       "geometry": {
@@ -264,6 +267,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=AuKdNGEdbPk",
         "": ""
       },
       "geometry": {
@@ -291,6 +295,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=SzT0BvbjmBw",
         "": ""
       },
       "geometry": {
@@ -318,6 +323,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=1bMaS-Dq3Gk",
         "": ""
       },
       "geometry": {
@@ -372,6 +378,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=-s9fObiIBfU",
         "": ""
       },
       "geometry": {
@@ -480,6 +487,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=n96PR8oY1KY",
         "": ""
       },
       "geometry": {
@@ -561,6 +569,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/cosbyshow_150x90.jpg",
         "ImageLink": "/images/locations/cosbyshow.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=OS6wZl7G-QE",
         "": ""
       },
       "geometry": {
@@ -750,6 +759,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=iIiaWgYJyuc",
         "": ""
       },
       "geometry": {
@@ -858,6 +868,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/nightcourt_150x90.jpg",
         "ImageLink": "/images/locations/nightcourt.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=EyKmxudCYKU",
         "": ""
       },
       "geometry": {
@@ -885,6 +896,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/diff'rentstrokes_150x90.jpg",
         "ImageLink": "/images/locations/diff'rentstrokes.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=kK1MhqugRYg",
         "": ""
       },
       "geometry": {
@@ -939,7 +951,8 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/goldengirls_150x90.jpg",
         "ImageLink": "/images/locations/goldengirls.jpg",
-        "": -80.1918
+        "IntroTheme": "https://www.youtube.com/watch?v=23GrEhLUF_k",
+        "": ""
       },
       "geometry": {
         "type": "Point",
@@ -1344,6 +1357,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=yDoRS8m3Tfk",
         "": ""
       },
       "geometry": {
@@ -1425,6 +1439,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=7J7QURtyTxU",
         "": ""
       },
       "geometry": {
@@ -1560,6 +1575,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=3UI_JwF3cnA",
         "": ""
       },
       "geometry": {
@@ -1614,6 +1630,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=b1QJ8ijnNxM",
         "": ""
       },
       "geometry": {
@@ -1776,6 +1793,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/thejeffersons_150x90.jpg",
         "ImageLink": "/images/locations/thejeffersons.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=SUGWOWy4CCQ",
         "": ""
       },
       "geometry": {
@@ -1992,6 +2010,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=H8tzXFagaso",
         "": ""
       },
       "geometry": {
@@ -2019,6 +2038,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=aNFoeUNv6JM",
         "": ""
       },
       "geometry": {
@@ -2413,7 +2433,7 @@ var maplistgeo =
     {
       "type": "Feature",
       "properties": {
-        "Sitcom": "My So-called Life",
+        "Sitcom": "My So-Called Life",
         "OnAir": "94-95",
         "Decade80s": "",
         "Decade90s": "90s",

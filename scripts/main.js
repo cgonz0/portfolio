@@ -170,6 +170,23 @@ var overlay = {
 L.control.layers(null, overlay,{collapsed:false}).addTo(map);
 
 
+//Set target zoom views
+
+var locNYC = new L.LatLng (40.748583, -73.954811);
+var locLA = new L.LatLng(34.099922, -118.345413);
+function zoomTo(location) {map.setView(location, [11]);}
+
+
+var resetmap = function(c){
+  if(c=='Reset')
+   map.setView(new L.LatLng(39.8097, -98.5556), 4);
+};
+
+/*
+map.on('viewreset', function()
+function zoomTo(location) {map.setView(location);}*/
+/*function zoomTo(location) {map.setView(location, [11]);}*/
+
 /*
 L.marker([39.8097, -98.5556]).addTo(map)
   .bindPopup("<b>Hello world!</b><br />I am a popup."); 
