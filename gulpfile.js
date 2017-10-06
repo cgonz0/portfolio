@@ -52,7 +52,7 @@ gulp.task('useref', function(){
 
 // Optimizing Json
 gulp.task('minify', function () {
-  return gulp.src(['path/to/files/*.json'])
+  return gulp.src(['./*.json'])
       .pipe(jsonminify())
       .pipe(gulp.dest('dist'));
 });

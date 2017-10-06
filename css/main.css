@@ -87,7 +87,11 @@ html, body {
     @media (max-width: 786px) {
       .header h1 {
         font-size: 28px;
-        padding-top: 35px; } }
+        padding-top: 40px; } }
+    @media (max-width: 480px) {
+      .header h1 {
+        font-size: 24px;
+        padding-top: 30px; } }
   .header h2 {
     font-weight: 400;
     text-align: center;
@@ -106,9 +110,9 @@ h1:before {
   background: #bf79d1;
   display: inline-block;
   position: absolute;
-  left: 1%;
+  left: 0%;
   padding: 1.5rem;
-  right: 1%;
+  right: 0%;
   z-index: -1;
   -webkit-column-break-inside: avoid;
   break-inside: avoid;
