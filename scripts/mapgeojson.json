@@ -72,7 +72,7 @@ var maplistgeo =
         "AddressArea": "",
         "Network": "NBC",
         "Spinoff": "",
-        "SpinoffOf": "",
+        "SpinoffOf": "Cheers",
         "FictionalLocation proximity": "",
         "ImageSrc": "",
         "ImageLink": "",
@@ -265,8 +265,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
-        "ImageSrc": "",
-        "ImageLink": "",
+        "ImageSrc": "/images/locations/thumbs/madaboutyou_150x90.jpg",
+        "ImageLink": "/images/locations/madaboutyou.jpg",
         "IntroTheme": "https://www.youtube.com/watch?v=AuKdNGEdbPk",
         "": ""
       },
@@ -293,8 +293,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "Night Court (Crossover)",
         "FictionalLocation proximity": "",
-        "ImageSrc": "",
-        "ImageLink": "",
+        "ImageSrc": "/images/locations/thumbs/mytwodads_150x90.jpg",
+        "ImageLink": "/images/locations/mytwodads.jpg",
         "IntroTheme": "https://www.youtube.com/watch?v=SzT0BvbjmBw",
         "": ""
       },
@@ -485,8 +485,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
-        "ImageSrc": "",
-        "ImageLink": "",
+        "ImageSrc": "/images/locations/thumbs/newsradio_150x90.jpg",
+        "ImageLink": "/images/locations/newsradio.jpg",
         "IntroTheme": "https://www.youtube.com/watch?v=n96PR8oY1KY",
         "": ""
       },
@@ -1298,7 +1298,7 @@ var maplistgeo =
         "FictionalLocation": "",
         "AddressArea": "84 Beacon St.",
         "Network": "NBC",
-        "Spinoff": "",
+        "Spinoff": "Frasier",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/cheers_150x90.jpg",
@@ -1355,16 +1355,16 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
-        "ImageSrc": "",
-        "ImageLink": "",
+        "ImageSrc": "/images/locations/thumbs/kateandallie_150x90.jpg",
+        "ImageLink": "/images/locations/kateandallie.jpg",
         "IntroTheme": "https://www.youtube.com/watch?v=yDoRS8m3Tfk",
         "": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.0027,
-          40.7336
+          -74.004511,
+          40.736589
         ]
       }
     },
@@ -1437,16 +1437,16 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
-        "ImageSrc": "",
-        "ImageLink": "",
+        "ImageSrc": "/images/locations/thumbs/headoftheclass_150x90.jpg",
+        "ImageLink": "/images/locations/headoftheclass.jpg",
         "IntroTheme": "https://www.youtube.com/watch?v=7J7QURtyTxU",
         "": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.0006,
-          40.723
+          -73.987081,
+          40.735324
         ]
       }
     },
@@ -1573,8 +1573,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
-        "ImageSrc": "",
-        "ImageLink": "",
+        "ImageSrc": "/images/locations/thumbs/bosombuddies_150x90.jpg",
+        "ImageLink": "/images/locations/bosombuddies.jpg",
         "IntroTheme": "https://www.youtube.com/watch?v=3UI_JwF3cnA",
         "": ""
       },
@@ -1628,8 +1628,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
-        "ImageSrc": "",
-        "ImageLink": "",
+        "ImageSrc": "/images/locations/thumbs/taxi_150x90.jpg",
+        "ImageLink": "/images/locations/taxi.jpg",
         "IntroTheme": "https://www.youtube.com/watch?v=b1QJ8ijnNxM",
         "": ""
       },

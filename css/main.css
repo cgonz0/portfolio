@@ -110,9 +110,9 @@ h1:before {
   background: #bf79d1;
   display: inline-block;
   position: absolute;
-  left: 0%;
+  left: 3%;
   padding: 1.5rem;
-  right: 0%;
+  right: 3%;
   z-index: -1;
   -webkit-column-break-inside: avoid;
   break-inside: avoid;
@@ -261,7 +261,9 @@ body {
   color: #bf79d1; }
 
 .infoDetail {
-  color: #000000; }
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 5px; }
   .infoDetail span {
     color: #999999;
     text-transform: uppercase;
