@@ -484,3 +484,6 @@ input[type="checkbox"]:checked + span:before {
   margin: 5px 0px;
   font-family: 'Work Sans', sans-serif;
   cursor: pointer; }
+  .btn-target:hover {
+    background-color: #ffffff;
+    color: #eb49c5; }

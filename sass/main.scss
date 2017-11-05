@@ -565,6 +565,10 @@ input[type="checkbox"]:checked + span:before {
 	margin: 5px 0px;
 	font-family: 'Work Sans', sans-serif;
 	cursor: pointer;
+	&:hover {
+		background-color: $white;
+		color: $pink;
+	} 
 }
 
 
