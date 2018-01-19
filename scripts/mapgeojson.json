@@ -130,6 +130,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/familymatters_150x90.jpg",
         "ImageLink": "/images/locations/familymatters.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=ftLhANQxX0s",
         "": ""
       },
       "geometry": {
@@ -157,6 +158,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/marriedwithchildren_150x90.jpg",
         "ImageLink": "/images/locations/marriedwithchildren.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=62EzecmOWPk",
         "": ""
       },
       "geometry": {
@@ -209,8 +211,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "King of Queens (Crossover)",
         "FictionalLocation proximity": "",
-        "ImageSrc": "",
-        "ImageLink": "",
+        "ImageSrc": "/images/locations/thumbs/everybodylovesraymond_150x90.jpg",
+        "ImageLink": "/images/locations/everybodylovesraymond.jpg",
         "IntroTheme": "https://www.youtube.com/watch?v=e8JN7d1WcbA",
         "": ""
       },
@@ -376,8 +378,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "",
         "FictionalLocation proximity": "",
-        "ImageSrc": "",
-        "ImageLink": "",
+        "ImageSrc": "/images/locations/thumbs/livingsingle_150x90.jpg",
+        "ImageLink": "/images/locations/livingsingle.jpg",
         "IntroTheme": "https://www.youtube.com/watch?v=-s9fObiIBfU",
         "": ""
       },
@@ -746,7 +748,7 @@ var maplistgeo =
       "type": "Feature",
       "properties": {
         "Sitcom": "Will & Grace",
-        "OnAir": "98-06",
+        "OnAir": "98-06 & 17-?",
         "Decade80s": "",
         "Decade90s": "90s",
         "TimePeriod": "",
@@ -759,7 +761,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/willandgrace_150x90.jpg",
         "ImageLink": "/images/locations/willandgrace.jpg",
-        "IntroTheme": "https://www.youtube.com/watch?v=iIiaWgYJyuc",
+        "IntroTheme": "https://www.youtube.com/watch?v=VIKDhYhRExU",
         "": ""
       },
       "geometry": {
@@ -841,6 +843,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/factsoflife_150x90.jpg",
         "ImageLink": "/images/locations/factsoflife.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=WmgIXH4Bp9g",
         "": ""
       },
       "geometry": {
@@ -1303,6 +1306,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/cheers_150x90.jpg",
         "ImageLink": "/images/locations/cheers.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=jaTWxKVgunE",
         "": ""
       },
       "geometry": {
@@ -1385,6 +1389,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/designingwomen_150x90.jpg",
         "ImageLink": "/images/locations/designingwomen.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=oF24arvtNuI",
         "": ""
       },
       "geometry": {
@@ -1477,7 +1482,7 @@ var maplistgeo =
         ]
       }
     },
-    {
+    /*{
       "type": "Feature",
       "properties": {
         "Sitcom": "Happy Days",
@@ -1503,7 +1508,7 @@ var maplistgeo =
           42.5577
         ]
       }
-    },
+    },*/
     {
       "type": "Feature",
       "properties": {
@@ -1521,6 +1526,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/whostheboss_150x90.jpg",
         "ImageLink": "/images/locations/whostheboss.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=Ojc02OvZVo8",
         "": ""
       },
       "geometry": {
@@ -1603,6 +1609,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/amen_150x90.jpg",
         "ImageLink": "/images/locations/amen.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=4N83L29yGKI",
         "": ""
       },
       "geometry": {
@@ -1749,7 +1756,7 @@ var maplistgeo =
         ]
       }
     },
-    {
+    /*{
       "type": "Feature",
       "properties": {
         "Sitcom": "Laverne & Shirley",
@@ -1775,7 +1782,7 @@ var maplistgeo =
           43.0472
         ]
       }
-    },
+    },*/
     {
       "type": "Feature",
       "properties": {
@@ -1821,6 +1828,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/threescompany_150x90.jpg",
         "ImageLink": "/images/locations/threescompany.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=HZpY_ftXETw",
         "": ""
       },
       "geometry": {
@@ -2036,8 +2044,8 @@ var maplistgeo =
         "Spinoff": "",
         "SpinoffOf": "All in the Family",
         "FictionalLocation proximity": "",
-        "ImageSrc": "",
-        "ImageLink": "",
+        "ImageSrc": "/images/locations/thumbs/gloria_150x90.jpg",
+        "ImageLink": "/images/locations/gloria.jpg",
         "IntroTheme": "https://www.youtube.com/watch?v=aNFoeUNv6JM",
         "": ""
       },
@@ -2066,6 +2074,7 @@ var maplistgeo =
         "FictionalLocation proximity": "",
         "ImageSrc": "/images/locations/thumbs/stepbystep_150x90.jpg",
         "ImageLink": "/images/locations/stepbystep.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=sYYSaBLzH4A",
         "": ""
       },
       "geometry": {
@@ -2175,6 +2184,7 @@ var maplistgeo =
         "FictionalLocation proximity": "Suburb outside of Chicago, close to Rockford,IL (possibly Genoa, IL)",
         "ImageSrc": "/images/locations/thumbs/roseanne_150x90.jpg",
         "ImageLink": "/images/locations/roseanne.jpg",
+        "IntroTheme": "https://www.youtube.com/watch?v=RKcYv65Bz7A",
         "": ""
       },
       "geometry": {
@@ -2345,6 +2355,34 @@ var maplistgeo =
         "coordinates": [
           -94.4636,
           39.0086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Sitcom": "The Fresh Prince of Bel-Air",
+        "OnAir": "90-96",
+        "Decade80s": "",
+        "Decade90s": "90s",
+        "TimePeriod": "",
+        "Location": "Bel Air, CA",
+        "FictionalLocation": "",
+        "AddressArea": "",
+        "Network": "NBC",
+        "Spinoff": "",
+        "SpinoffOf": "",
+        "FictionalLocation proximity": "",
+        "ImageSrc": "",
+        "ImageLink": "",
+        "IntroTheme": "https://www.youtube.com/watch?v=3qHA366oRMs",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.459463,
+          34.100245
         ]
       }
     },
