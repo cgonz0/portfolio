@@ -27,43 +27,27 @@ html, body {
   border: none;
   width: 200px;
   top: 22px;
-  background-color: #000;
+  background-color: #bf79d1;
   position: absolute;
-  padding: 20px;
-  display: none;
-  z-index: 1; }
+  padding: 0px;
+  z-index: 1;
+  border: 1px solid white; }
 
 .dropdown-menu li {
   margin-left: 0;
   float: none;
-  list-style: none;
-  padding: 10px; }
+  list-style: none; }
 
 .dropdown-menu li a {
-  color: #ffffff;
-  padding: 5px 0;
+  color: white;
+  padding: 15px 0px;
   text-align: center;
-  text-decoration: none; }
-
-.dropdown-menu li a:hover:before {
-  content: '';
-  background: #15cec9;
-  display: inline-block;
-  position: absolute;
-  left: 10%;
-  padding: 16px;
-  margin: -4px;
-  right: 20%;
-  z-index: -1;
-  -webkit-column-break-inside: avoid;
-  break-inside: avoid;
-  transition: all 0.3s;
-  -webkit-transform: rotate(1deg) skew(-7deg);
-  transform: rotate(1deg) skew(-7deg); }
-
-.contactdropdown:hover:before {
-  -webkit-transform: rotate(-1deg) skew(7deg) !important;
-  transform: rotate(-1deg) skew(7deg) !important; }
+  text-decoration: none;
+  display: block; }
+  .dropdown-menu li a:hover {
+    color: #bf79d1;
+    background: white;
+    width: 100%; }
 
 .header {
   padding-top: 10px;
@@ -76,7 +60,7 @@ html, body {
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #B3FF21), color-stop(100, #91CE1B));
 	background-image: -webkit-linear-gradient(bottom, #B3FF21 0%, #91CE1B 100%);
 	background-image: linear-gradient(to top, #B3FF21 0%, #91CE1B 100%);*/
-  color: #ffffff; }
+  color: white; }
   .header h1 {
     text-align: center;
     font-family: 'Rammetto One';
@@ -100,7 +84,7 @@ html, body {
     color: #bf79d1; }
     @media (max-width: 1263px) {
       .header h2 {
-        color: #ffffff; } }
+        color: white; } }
     @media (max-width: 786px) {
       .header h2 {
         font-size: 21px; } }
@@ -129,7 +113,7 @@ h1:hover:before {
 
 h2:before {
   content: '';
-  background: #ffffff;
+  background: white;
   display: inline-block;
   position: absolute;
   left: 28%;
@@ -233,9 +217,8 @@ li {
   padding: 30px 0px; }
   .footer .copyright {
     color: #999999;
-    font-size: 14px;
-    text-align: center;
-    padding-top: 5px; }
+    font-size: 13px;
+    text-align: center; }
     .footer .copyright a {
       color: #999999;
       font-size: 14px;
@@ -275,12 +258,15 @@ body {
 
 .intro .fa {
   font-size: 24px;
-  color: #15cec9;
+  color: #8ADF46;
   margin-top: -6px; }
 
 .leaflet-marker-icon {
   height: 45px !important;
   width: 30px !important; }
+
+.leaflet-control-layers {
+  border: 1px solid white !important; }
 
 .modal-box {
   display: none;
@@ -353,7 +339,7 @@ a.close:hover {
   transition: color 1s ease; }
 
 .contact .fa {
-  color: #15cec9;
+  color: #8ADF46;
   margin-bottom: 10px; }
 
 .location .fa {
@@ -363,7 +349,7 @@ a.close:hover {
   font-size: 18px; }
 
 .socialmedia .fa {
-  color: #15cec9;
+  color: #8ADF46;
   font-size: 32px;
   margin: 10px 40px 30px 0px; }
 
@@ -376,9 +362,9 @@ a.close:hover {
 .btn {
   font-size: 16px;
   padding: 10px 20px;
-  background-color: #15cec9;
+  background-color: #8ADF46;
   border: none;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   display: inline;
   border-radius: 4px;
@@ -402,7 +388,7 @@ a.close:hover {
   background-color: #eb49c5;
   width: 120px;
   height: 500px;
-  color: #ffffff;
+  color: white;
   padding-top: 25px;
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
@@ -420,7 +406,7 @@ label {
 
 input[type="checkbox"] + span:before {
   border: none;
-  background: #ffffff;
+  background: white;
   content: "\00a0";
   display: inline-block;
   font: 21px/.8em sans-serif;
@@ -431,8 +417,8 @@ input[type="checkbox"] + span:before {
   width: 16px; }
 
 input[type="checkbox"]:checked + span:before {
-  background: #ffffff;
-  color: #15cec9;
+  background: white;
+  color: #8ADF46;
   content: "\2714";
   text-align: center; }
 
@@ -460,7 +446,7 @@ input[type="checkbox"]:checked + span:before {
   width: 100px;
   border-style: solid;
   border-width: .5px;
-  color: #ffffff; }
+  color: white; }
 
 .btn-group {
   position: absolute;
@@ -477,13 +463,13 @@ input[type="checkbox"]:checked + span:before {
   font-size: 13px;
   width: 105px;
   height: 34px;
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   background-color: transparent;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   margin: 5px 0px;
   font-family: 'Work Sans', sans-serif;
   cursor: pointer; }
   .btn-target:hover {
-    background-color: #ffffff;
+    background-color: white;
     color: #eb49c5; }
