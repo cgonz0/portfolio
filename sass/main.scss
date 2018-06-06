@@ -31,57 +31,64 @@ html, body {
 }
 
 .dropdown-menu {
-  border-radius: 0px; 
-  box-shadow: none; 
+  border-radius: 0px;
+  box-shadow: none;
   border: none;
   width: 200px;
   top: 22px;
-  background-color: #000;
+  background-color: $purple;
   position: absolute;
-  padding: 20px;
-  display: none;
-  z-index: 1;
+  padding: 0px;
+  // display: none;
+	z-index: 1;
+	border: 1px solid white;
 }
 
 .dropdown-menu li {
   margin-left: 0;
   float: none;
   list-style: none;
-  padding: 10px;
+  // padding: 10px;
 }
 
 .dropdown-menu li a {
-  color: $white;
-  padding: 5px 0;
+  color: white;
+  padding: 15px 0px;
   text-align: center;
-  text-decoration: none;
+	text-decoration: none;
+	display: block;
+	&:hover {
+		color: $purple;
+		background: white;
+		width: 100%;
+	}
 }
 
-.dropdown-menu li a:hover:before {
-	content: '';
-	    background: $aqua;
-	    display: inline-block;
-	    position: absolute;
-	    left: 10%;
-	    padding: 16px;
-		margin: -4px;
-	    right: 20%;
-	    z-index: -1;
-	    -webkit-column-break-inside: avoid;
-	    break-inside: avoid;
-	    transition: all 0.3s;
-  		-webkit-transform: rotate(1deg) skew(-7deg);
-        transform: rotate(1deg) skew(-7deg);
-}
+// .dropdown-menu li a:hover:before {
+// 	content: '';
+// 	background: white;
+// 	display: inline-block;
+// 	position: absolute;
+// 	left: 10%;
+// 	padding: 16px;
+// 	margin: -4px;
+// 	right: 20%;
+// 	z-index: -1;
+// 	-webkit-column-break-inside: avoid;
+// 	break-inside: avoid;
+// 	transition: all 0.3s;
+//   -webkit-transform: rotate(1deg) skew(-7deg);
+// 	transform: rotate(1deg) skew(-7deg);
+// }
 
-.contactdropdown:hover:before {
-  		-webkit-transform: rotate(-1deg) skew(7deg) !important;
-        transform: rotate(-1deg) skew(7deg) !important;
-}
+// .contactdropdown:hover:before {
+//   		-webkit-transform: rotate(-1deg) skew(7deg) !important;
+//         transform: rotate(-1deg) skew(7deg) !important;
+// }
 
 //
 
-.header { 
+.header {
 	padding-top: 10px;
 	height: 280px;
 	background-color: $green;
@@ -92,7 +99,7 @@ html, body {
 	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #B3FF21), color-stop(100, #91CE1B));
 	background-image: -webkit-linear-gradient(bottom, #B3FF21 0%, #91CE1B 100%);
 	background-image: linear-gradient(to top, #B3FF21 0%, #91CE1B 100%);*/
-	color: $white;
+	color: white;
 	h1 {
 		text-align: center;
 		font-family: 'Rammetto One';
@@ -109,12 +116,12 @@ html, body {
 		position:relative;
 		z-index: 0;
 		color: $purple;
-		@media (max-width:1263px) {color:$white;}
+		@media (max-width:1263px) {color:white;}
 		@media (max-width:786px) {font-size:21px;}
 	}
 }
-	
-	
+
+
 
 	h1:before {
 	    content: '';
@@ -141,7 +148,7 @@ html, body {
 
     h2:before {
 	    content: '';
-	    background: $white;
+	    background: white;
 	    display: inline-block;
 	    position: absolute;
 	    left: 28%;
@@ -160,7 +167,7 @@ html, body {
   		-webkit-transform: rotate(-1deg) skew(7deg);
          transform: rotate(-1deg) skew(7deg);
     }
-	
+
 /*
 .nav ul {
 	list-style: none;
@@ -212,7 +219,7 @@ li {
 
 */
 
-//contact 
+//contact
 
 .socialmedia {
 	text-align: center;
@@ -260,9 +267,8 @@ li {
 	padding: 30px 0px;
 	.copyright {
 		color: $gray;
-		font-size: 14px;
+		font-size: 13px;
 		text-align: center;
-		padding-top: 5px;
 		a {
 			color: $gray;
 			font-size: 14px;
@@ -270,9 +276,9 @@ li {
 		}
 	}
 	hr {
-		margin-top:50px;	
+		margin-top:50px;
 		width: 50px;
-		color: $purple	;	
+		color: $purple	;
 		border-style: solid;
 		border-width: 1px;
 	}
@@ -281,7 +287,7 @@ li {
 .logo {
 		width: 50px;
 	}
-//	
+//
 
 body {
 	background: white;
@@ -302,7 +308,7 @@ body {
 	span {
 		color: $gray;
 		text-transform: uppercase;
-		font-size: 10px;	
+		font-size: 10px;
 	}
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -315,13 +321,17 @@ body {
 
 .intro .fa {
 	font-size: 24px;
-	color: $aqua;
+	color: $green;
 	margin-top: -6px;
 }
 
 .leaflet-marker-icon {
 	height: 45px !important;
 	width: 30px !important;
+}
+
+.leaflet-control-layers {
+	border: 1px solid white !important;
 }
 
 
@@ -334,7 +344,7 @@ body {
 	top: 150px;
 	margin-left: auto;
 	margin-right: auto;
-	position:absolute;	
+	position:absolute;
 	z-index: 1001;
 	width: 75%;
 	background: white;
@@ -358,8 +368,8 @@ body {
 .modal-box .modal-header h3,
 .modal-box .modal-header h4 { margin: 0; }
 
-.modal-box .modal-body { 
-	padding: 2em 1.5em; 
+.modal-box .modal-body {
+	padding: 2em 1.5em;
 	color: $black;
 }
 
@@ -400,20 +410,20 @@ a.close:hover {
 }
 
 .contact .fa {
-	color: $aqua;
-	margin-bottom: 10px;	
+	color: $green;
+	margin-bottom: 10px;
 }
 
 .location .fa {
 	font-size: 24px;
 }
-	
+
 .email .fa {
 	font-size: 18px;
 }
-	
+
 .socialmedia .fa {
-	color: $aqua;
+	color: $green;
 	font-size: 32px;
 	margin: 10px 40px 30px 0px;
 }
@@ -429,9 +439,9 @@ a.close:hover {
 .btn {
 	font-size: 16px;
 	padding: 10px 20px;
-	background-color: $aqua;
+	background-color: $green;
 	border: none;
-	color: $white;
+	color: white;
 	text-decoration: none;
 	display: inline;
 	border-radius: 4px;
@@ -465,20 +475,20 @@ a.close:hover {
 	background-color: $pink;
 	width: 120px;
 	height: 500px;
-	color: $white;
+	color: white;
 	padding-top: 25px;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 16px;
 	box-shadow: none;
 	border-radius: 0px;
 	line-height: 22px;
- }	
+ }
 
 //selector checkbox
 
 input[type="checkbox"] {
   display: none;
-  }	
+  }
 
   label {
   cursor: pointer;
@@ -488,7 +498,7 @@ input[type="checkbox"] {
 
   input[type="checkbox"] + span:before {
   border: none;
-  background: $white;
+  background: white;
   content: "\00a0";
   display: inline-block;
   font: 21px/.8em sans-serif;
@@ -500,8 +510,8 @@ input[type="checkbox"] {
   }
 
 input[type="checkbox"]:checked + span:before {
-  background: $white;
-  color: $aqua;
+  background: white;
+  color: $green;
   content: "\2714";
   text-align: center;
   }
@@ -538,7 +548,7 @@ input[type="checkbox"]:checked + span:before {
     width: 100px;
     border-style: solid;
     border-width: .5px;
-    color: $white;
+    color: white;
 }
 
 // target buttons
@@ -558,17 +568,17 @@ input[type="checkbox"]:checked + span:before {
 	font-size: 13px;
 	width: 105px;
 	height: 34px;
-	border: 1px solid $white;
+	border: 1px solid white;
 	background-color: transparent;
-	color: $white;
+	color: white;
 	text-decoration: none;
 	margin: 5px 0px;
 	font-family: 'Work Sans', sans-serif;
 	cursor: pointer;
 	&:hover {
-		background-color: $white;
+		background-color: white;
 		color: $pink;
-	} 
+	}
 }
 
 
