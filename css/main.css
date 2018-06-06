@@ -30,6 +30,7 @@ html, body {
   background-color: #bf79d1;
   position: absolute;
   padding: 0px;
+  display: none;
   z-index: 1;
   border: 1px solid white; }
 
