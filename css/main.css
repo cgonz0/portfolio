@@ -31,8 +31,7 @@ html, body {
   position: absolute;
   padding: 0px;
   display: none;
-  z-index: 1;
-  border: 1px solid white; }
+  z-index: 1; }
 
 .dropdown-menu li {
   margin-left: 0;
@@ -242,7 +241,8 @@ body {
   height: 500px; }
 
 .infoHeader {
-  color: #bf79d1; }
+  color: #bf79d1;
+  letter-spacing: -.2px; }
 
 .infoDetail {
   color: #000000;
@@ -267,7 +267,13 @@ body {
   width: 30px !important; }
 
 .leaflet-control-layers {
-  border: 1px solid white !important; }
+  border: 1px solid #eb49c5 !important; }
+
+.leaflet-popup {
+  font-family: 'Work Sans'; }
+
+.leaflet-popup-content {
+  max-width: 250px; }
 
 .modal-box {
   display: none;
@@ -304,8 +310,10 @@ body {
   margin: 0; }
 
 .modal-box .modal-body {
-  padding: 2em 1.5em;
+  padding: 2em 6.5em;
   color: #000000; }
+  .modal-box .modal-body p.small {
+    font-size: 13px; }
 
 .modal-box footer,
 .modal-box .modal-footer {
@@ -375,6 +383,10 @@ a.close:hover {
 
 #about-popup, #contact-popup {
   z-index: 1002; }
+
+#resources-popup .modal-body a {
+  text-decoration: none;
+  color: #000000; }
 
 .leaflet-control-layers-overlays {
   margin-top: 60px; }

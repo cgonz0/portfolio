@@ -41,7 +41,6 @@ html, body {
   padding: 0px;
   display: none;
 	z-index: 1;
-	border: 1px solid white;
 }
 
 .dropdown-menu li {
@@ -301,6 +300,7 @@ body {
 
 .infoHeader {
 	color: $purple;
+	letter-spacing: -.2px;
 }
 
 .infoDetail {
@@ -331,9 +331,16 @@ body {
 }
 
 .leaflet-control-layers {
-	border: 1px solid white !important;
+	border: 1px solid $pink !important;
 }
 
+.leaflet-popup {
+	font-family: 'Work Sans';
+}
+
+.leaflet-popup-content {
+	max-width: 250px;
+}
 
 // modal
 
@@ -369,8 +376,11 @@ body {
 .modal-box .modal-header h4 { margin: 0; }
 
 .modal-box .modal-body {
-	padding: 2em 1.5em;
+	padding: 2em 6.5em;
 	color: $black;
+	p.small {
+		font-size: 13px;
+	}
 }
 
 .modal-box footer,
@@ -452,6 +462,11 @@ a.close:hover {
 
 #about-popup, #contact-popup {
 	z-index: 1002;
+}
+
+#resources-popup .modal-body a {
+	text-decoration: none;
+	color: $black;
 }
 
 // leaflet styling fixes

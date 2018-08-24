@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
 		<!--build:css css/main.min.css-->
 		<link rel="stylesheet" href="css/main.css" type="text/css">
 		<link rel="stylesheet" href="leaflet/leaflet.css" type="text/css">
@@ -21,22 +22,40 @@
 	       <ul class="dropdown-menu">
 				    <li><a class="js-open-modal" href="#" data-modal-id="about-popup">About</a></li>
 				    <li><a class="js-open-modal contactdropdown" href="#" data-modal-id="contact-popup">Contact</a></li>
-				    <li><a href="pages/resources.html">Resources</a></li>
+				    <li><a class="js-open-modal" href="#" data-modal-id="resources-popup">Resources</a></li>
 	       </ul>
 	  </div>
 
 
-	<div id="about-popup" class="modal-box">
+		<div id="about-popup" class="modal-box">
 		  	<header>
 			    <a href="#" class="js-modal-close close"><i class="fa fa-remove"></i></a>
 			    <h3>About</h3>
 		  	</header>
 			<div class="modal-body">
-			    <p>Said Californ'y is the place you ought to be So they loaded up the truck and moved to Beverly. Hills that is. Swimmin' pools movie stars. Movin' on up to the east side. We finally got a piece of the pie. I'm at WKRP in Cincinnati. The Love Boat soon will be making another run. The Love Boat promises something for everyone.</p>
+				<p>This website came about as a labor of love and a first front-end development project.</p>
 
-				<p>And if you threw a party - invited everyone you knew. Sunday Monday Happy Days. Tuesday Wednesday Happy Days. Thursday Friday Happy Days. Saturday what a day. Groovin' all week with you. Till the one day when the lady met this fellow and they knew it was much more than a hunch. Doin' it our way. There's nothing we wont try. Baby if you've ever wondered - wondered whatever became of me. I'm living on the air in Cincinnati. Cincinnati WKRP.</p>
+				<p>I watched a lot of tv growing up and eventually became fascinated with the idea of the characters I observed daily existing in their specific locations. If we visit New York City, we could stand in front the Friends' apartment and imagine their lives through one of the many windows above.</p>
 
-				<p>Well we're movin' on up to the east side. To a deluxe apartment in the sky. Well the first thing you know ol' Jeds a millionaire. You wanna be where you can see our troubles are all the same. You wanna be where everybody knows Your name. The Brady Bunch the Brady Bunch that's the way we all became the Brady Bunch.</p>
+				<p>This landscape was meant to not only serve as a database for sitcom locations within a particular era, but to explore the idea of different worlds existing at the same time.</p>
+
+				<o>These characters co-exsiting in conservative blue-collar towns of Lanford, Illinois and the posh Upper East Side of New York represented an America as diverse as we know.</o>
+				<p>While the Fresh Prince was trying to fit in in Bel-Air, Sam Malone was running his cozy bar in Boston. Designing Women in Georgia, Golden Girls in Miami, the students of a Different World at Hillman College – even ALF in San Fernando Valley, California – all immersed in their unique worlds, but synchronized across America at the same time.</o>
+
+				<p>Some were even co-habiting the same towns/cities/states. Martin, Home Improvement & Sister, Sister all took place in Detroit at the same time, yet presented completely different narratives.</p>
+
+				<p>This map serves to visually display these wonderful juxtapositions and is dedicated to all tv lovers and those raised by tv.</p>
+
+				<br>
+
+				<p class="small">LOCATION DETAILS</p>
+				<p class="small">All locations are based on accurate addresses provided by the series or in some cases — including fictional locations — references (landmarks, neighboring towns, objects, language, etc) provided within the series, or selected exterior shots were used to guesstimate locations.</p>
+
+				<p class="small">Images: Thumbnail images are typically screenshots from the series while the enlarged version show more current images of these homes — from sources around the web, sometimes including googlemaps.</p>
+
+				<p class="small">Where some locations are not available, approximations have been made, or images were taken from sites that inspired the location. (i.e. The exterior of the Redbury Hotel in Manhattan used for the Bosom Buddy location. The Redbury which was previously a women’s only hotel (Martha Washington Hotel) in the early 1900s and possible inspiration for Bosom Buddies’ Susan B. Anthony Hotel).</p>
+
+				<p class="small">As expected from fictional television, there are some instances where the information given is a bit trickier — as it is for NewsRadio. Exteriors were used from the Continental Building at Broadway and 41st. The show gives its actual location at the Criterion Building on 58th St. & Madison Ave, but its address as 1460 Madison Ave, which is located at 100th St & Madison Ave. There is also a Criterion Building in Manhattan located at the 25th Street crossroads of Fifth Avenue and Broadway. I used the exterior of the Continental for the images, and the location specified in the pilot: 58th St. & Madison Ave for the map location.</p>
 			</div>
 		 	<footer>
 		   		 <a href="#" class="btn btn-small js-modal-close">Close</a>
@@ -46,7 +65,6 @@
 		<div id="contact-popup" class="modal-box">
 		  	<header>
 			    <a href="#" class="js-modal-close close"><i class="fa fa-remove"></i></a>
-
 			    <h3>Contact</h3>
 		  	</header>
 			<div class="modal-body">
@@ -65,6 +83,24 @@
 						<p>hello@cgonzadesign.com</p>
 					</div>
 				</div>
+			</div>
+		 	<footer>
+		   		 <a href="#" class="btn btn-small js-modal-close">Close</a>
+		  	</footer>
+		</div>
+
+		<div id="resources-popup" class="modal-box">
+		  	<header>
+			    <a href="#" class="js-modal-close close"><i class="fa fa-remove"></i></a>
+			    <h3>Resources</h3>
+		  	</header>
+			<div class="modal-body">
+			   <ul>
+					 <li><a href="http://images.google.com" target="_blank">google images</a></li>
+					 <li><a href="http://www.youtube.com" target="_blank">youtube</a></li>
+					 <li><a href="http://www.iamnotastalker.com/" target="_blank">http://www.iamnotastalker.com/</a></li>
+					 <li><a href="https://rtrlocations.blogspot.com/p/home.html" target="_blank">https://rtrlocations.blogspot.com/p/home.html</a></li>
+			   </ul>
 			</div>
 		 	<footer>
 		   		 <a href="#" class="btn btn-small js-modal-close">Close</a>

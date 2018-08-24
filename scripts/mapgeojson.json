@@ -1367,8 +1367,8 @@ var maplistgeo =
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.004511,
-          40.736589
+          -74.00457,
+          40.73653
         ]
       }
     },
