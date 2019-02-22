@@ -409,6 +409,9 @@ a.close:hover {
   border-radius: 0px;
   line-height: 22px; }
 
+.leaflet-shadow-pane img {
+  display: none !important; }
+
 input[type="checkbox"] {
   display: none; }
 

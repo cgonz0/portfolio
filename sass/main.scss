@@ -499,6 +499,10 @@ a.close:hover {
 	line-height: 22px;
  }
 
+ .leaflet-shadow-pane img {
+	display: none !important;
+}
+
 //selector checkbox
 
 input[type="checkbox"] {
